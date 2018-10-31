@@ -82,7 +82,5 @@
         </div>
     </div>
 
-    <hr>
-
 
 @endsection
