@@ -34,5 +34,13 @@ class PostsController extends Controller
         //
         return view('contact');
     }
+    public function booking()
+    {
+        return view('booking');
+    }
+    public function review()
+    {
+        return view('review');
+    }
 
 }

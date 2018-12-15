@@ -4,14 +4,14 @@
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/IMAG1071.jpg')">
+    <header class="intro-header" style="background-image: url('img/view7.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
-                        <h1>洪店民宿<h1>
+                        <h1>快速訂房</h1>
                         <hr class="small">
-                        <span class="subheading">Where Are You Going -> Just Go Here</span>
+                        <span class="subheading" >Are You Ready->To Going Booking</span>
                     </div>
                 </div>
             </div>
@@ -19,7 +19,6 @@
     </header>
 
     <!-- Main Content -->
-    
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -38,7 +37,7 @@
                 <div class="post-preview">
                     <a href="#">
                         <h2 class="post-title">
-                           今年五月，花火節正式登場！
+                            今年五月，花火節正式登場！
                         </h2>
                         <h3 class="post-subtitle">
                             帶著你的老婆們一起來到這個地方，跟我們享受這個美好的時光吧！
@@ -54,11 +53,11 @@
                         </h2>
                         <h3 class="post-subtitle">
                             為期一個月的寒流，不容小覷，出們盡量戴好口罩呢！不然鼻涕就結冰了...
-                        </h3>                       
+                        </h3>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Zi-Ting,Chen</a> on January 09, 2018</p>
                 </div>
-                
+                <hr>
                 <hr>
                 <div class="post-preview">
                     <a href="#">
@@ -67,7 +66,7 @@
                         </h2>
                         <h3 class="post-subtitle">
                             關於在澎湖開設賭場這個議題，經過兩次的公投都是沒通過呢！
-                        </h3>                       
+                        </h3>
                     </a>
                     <p class="post-meta">Posted by <a href="#">Home-Wei,Chen</a> on July 28, 2017</p>
                 </div>
@@ -82,5 +81,6 @@
         </div>
     </div>
 
-
 @endsection
+
+

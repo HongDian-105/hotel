@@ -12,9 +12,10 @@
 
         <!-- Styles -->
         <style>
+            body {background:url('img/background/Idea-1.jpg');background-size:100%;background-repeat:no-repeat;}
             html, body {
                 background-color: #fff;
-                color: #636b6f;
+                color: #000000;
                 font-family: 'Nunito', sans-serif;
                 font-weight: 200;
                 height: 100vh;

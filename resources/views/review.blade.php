@@ -1,19 +1,17 @@
 @extends('layouts.master')
-
-@section('title', '洪店民宿-行程規劃')
-
+@section('title', '洪店民宿-回憶紀錄')
 @section('content')
 
     <!-- Page Header -->
     <!-- Set your background image for this header on the line below. -->
-    <header class="intro-header" style="background-image: url('img/view8.jpg')">
+    <header class="intro-header" style="background-image: url('img/view9.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="page-heading">
-                        <h1>行程規劃</h1>
+                        <h1>回憶紀錄</h1>
                         <hr class="small">
-                        <span class="subheading">The Next Station Of Happiness</span>
+                        <span class="subheading">Create Good Memories Today,So That You Can Have A Good Past.</span>
                     </div>
                 </div>
             </div>

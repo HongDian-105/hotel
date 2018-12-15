@@ -29,6 +29,14 @@
     <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
     <![endif]-->
 
+    <link href="{{asset('css/owl.carousel.min.css')}}" rel="stylesheet">
+    <link href="{{asset('css/owl.theme.default.min.css')}}" rel="stylesheet">
+
+    <script src="{{asset('js/jquery.min.js')}}"></script>
+    <script src="{{asset('js/owl.carousel.min.js')}}"></script>
+
+
+
 </head>
 
 <body>
@@ -37,13 +45,52 @@
 @include('layouts.partials.navigation')
 
 @yield('content')
+<style type="text/css">
+    #myBtn {
+        display: none; /* Hidden by default */
+        position: fixed; /* Fixed/sticky position */
+        bottom: 20px; /* Place the button at the bottom of the page */
+        right: 30px; /* Place the button 30px from the right */
+        z-index: 99; /* Make sure it does not overlap */
+        border: none; /* Remove borders */
+        outline: none; /* Remove outline */
+        background-color: red; /* Set a background color */
+        color: white; /* Text color */
+        cursor: pointer; /* Add a mouse pointer on hover */
+        padding: 15px; /* Some padding */
+        border-radius: 40px; /* Rounded corners */
+        font-size: 10px; /* Increase font size */
+    }
+</style>
+<button onclick="topFunction()" id="myBtn" title="Go to top">Top</button>
 
+<script>
+    // When the user scrolls down 20px from the top of the document, show the button
+    window.onscroll = function() {scrollFunction()};
 
-<hr>
+    function scrollFunction() {
+        if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            document.getElementById("myBtn").style.display = "block";
+        } else {
+            document.getElementById("myBtn").style.display = "none";
+        }
+    }
+
+    // When the user clicks on the button, scroll to the top of the document
+    function topFunction() {
+        document.body.scrollTop = 0;
+        document.documentElement.scrollTop = 0;
+    }
+</script>
+
+<br>
+<br>
+<br>
 
 <!-- Footer -->
+<div style="background-color:rgba(139,212,183,0.76);">
 @include('layouts.partials.footer')
-
+<div>
 
 <!-- jQuery -->
 <script src="{{asset('js/jquery.min.js')}}"></script>
@@ -58,6 +105,8 @@
 <!-- Theme JavaScript -->
 <script src="{{asset('js/clean-blog.min.js')}}"></script>
 
+</div>
+</div>
 </body>
 
 </html>
