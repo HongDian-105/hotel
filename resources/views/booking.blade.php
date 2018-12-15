@@ -22,64 +22,58 @@
     <div class="container">
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-                <div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">
-                            土魠的季節，好吃的滋味！
-                        </h2>
-                        <h3 class="post-subtitle">
-                            愛吃魚的朋友有福了！！今天土魠魚有三隻上岸歡迎詢問購買！
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Yi-Wei,Zheng</a> on November 08, 2018</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">
-                           今年五月，花火節正式登場！
-                        </h2>
-                        <h3 class="post-subtitle">
-                            帶著你的老婆們一起來到這個地方，跟我們享受這個美好的時光吧！
-                        </h3>
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Guan-Yu,Chen</a> on May 15, 2018</p>
-                </div>
-                <hr>
-                <div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">
-                            今年寒假特別冷呢！各位朋友要注意保暖唷！
-                        </h2>
-                        <h3 class="post-subtitle">
-                            為期一個月的寒流，不容小覷，出們盡量戴好口罩呢！不然鼻涕就結冰了...
-                        </h3>                       
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Zi-Ting,Chen</a> on January 09, 2018</p>
-                </div>
-                <hr>
-                <hr>
-                <div class="post-preview">
-                    <a href="#">
-                        <h2 class="post-title">
-                            太神啦！我能繼續擁有乾淨純樸的澎湖～
-                        </h2>
-                        <h3 class="post-subtitle">
-                            關於在澎湖開設賭場這個議題，經過兩次的公投都是沒通過呢！
-                        </h3>                       
-                    </a>
-                    <p class="post-meta">Posted by <a href="#">Home-Wei,Chen</a> on July 28, 2017</p>
-                </div>
-                <hr>
-                <!-- Pager -->
-                <ul class="pager">
-                    <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
-                    </li>
-                </ul>
+                <p>對澎湖感到心動不已了嗎？現在動動手填寫資料就可以快速完成訂房手續囉！</p>
+                <!-- Contact Form - Enter your email address on line 19 of the mail/contact_me.php file to make this form work. -->
+                <!-- WARNING: Some web hosts do not allow emails to be sent through forms to common mail hosts like Gmail or Yahoo. It's recommended that you use a private domain email address! -->
+                <!-- NOTE: To use the contact form, your site must be on a live web host with PHP! The form will not work locally! -->
+                <form action="{{ route('booking.store') }}" method="POST" role="form">
+                    {{ csrf_field() }}
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="text" class="form-control" placeholder="姓名" name="name">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="email" class="form-control" placeholder="Email" name="email">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="tel" class="form-control" placeholder="電話號碼" name="phone">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="text" class="form-control" placeholder="國家" name="country">
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="text" class="form-control" placeholder="地址" name="address">
+                        </div>
+                    </div>
+                    <br>
+                    <div style="text-align:left">
+                        <input type="date" name="StartTime" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d'); ?>" max="2019-01-31">
+                        <label>點擊向下箭頭可開啟詳細日期</label>
+                    </div>
+                    <div style="text-align:left">
+                        <input type="date" name="EndTime" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d'); ?>" max="2019-01-31">
+                    </div>
+                    <br>
+
+                    <div class="row">
+                        <div class="form-group col-xs-12">
+                            <input type="submit" value="送出" >
+                        </div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
-
-
 @endsection

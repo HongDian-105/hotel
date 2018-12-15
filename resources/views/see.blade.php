@@ -21,12 +21,6 @@
             </div>
         </div>
     </header>
-    <input type="text" value="<?php echo $_POST["c_name"];?>">
-    <input type="text" value="<?php echo $_POST["c_email"];?>">
-    <input type="text" value="<?php echo $_POST["c_phone"];?>">
-    <input type="text" value="<?php echo $_POST["c_country"];?>">
-    <input type="text" value="<?php echo $_POST["c_address"];?>">
-    <input type="text" value="<?php echo $_POST["bookdate"];?>">
-    <input type="text" value="<?php echo $_POST["bookdate2"];?>">
+
 
 @endsection

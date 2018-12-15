@@ -23,6 +23,10 @@ Route::get('contact',  ['as' => 'posts.contact', 'uses' => 'PostsController@cont
 Route::get('booking',  ['as' => 'posts.booking',  'uses' => 'PostsController@booking']);
 Route::get('review',  ['as' => 'posts.review',  'uses' => 'PostsController@review']);
 
+/*快速訂房*/
+Route::get('see',  ['as'=>'booking.see','uses' => 'BookingController@see']);
+Route::post('store',['as'=>'booking.store','uses' => 'BookingController@store']);
+
 /*房型介紹-各房間*/
 Route::get('/001', function () {return view('小管房');});
 Route::get('/002', function () {return view('土魠房');});
