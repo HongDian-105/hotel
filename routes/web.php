@@ -56,5 +56,6 @@ Route::get('/008', function () {return view('一日遊方案二');});
 Route::get('/009', function () {return view('一日遊方案三');});
 
 Auth::routes();
+Route::get('logout', 'Auth\LoginController@logout');
 
 Route::get('/home', 'HomeController@index')->name('home');

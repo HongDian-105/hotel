@@ -29,7 +29,26 @@
                         </a>
                     </li>
                 </ul>
-                <p class="copyright text-muted">Copyright &copy; My Website 2018</p>
+                <div>
+
+                    <p class="copyright text-muted">Copyright &copy; My Website 2018</p>
+                    <br>
+                    <div>
+                        @if (Route::has('login'))
+                            <div class="top-right links" style="text-align: center">
+                                @auth
+                                    <a href="{{ url('/home') }}">Home</a>
+                                    <a href="{{ url('/logout') }}">Logout</a>
+                                @else
+                                    <a href="{{ route('login') }}">Login</a>
+                                    <a href="{{ route('register') }}">Register</a>
+                                @endauth
+                            </div>
+                        @endif
+                    </div>
+
+                </div>
+
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next"></li>
