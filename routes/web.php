@@ -55,7 +55,8 @@ Route::get('/007', function () {return view('一日遊方案一');});
 Route::get('/008', function () {return view('一日遊方案二');});
 Route::get('/009', function () {return view('一日遊方案三');});
 
+/*登入，auth驗證等等......*/
 Auth::routes();
 Route::get('logout', 'Auth\LoginController@logout');
-
 Route::get('/home', 'HomeController@index')->name('home');
+Route::get('/admin', 'HomeController@show');
