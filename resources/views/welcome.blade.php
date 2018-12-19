@@ -5,7 +5,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
-        <title>Laravel</title>
+        <title>民宿網站</title>
 
         <!-- Fonts -->
         <link href="https://fonts.googleapis.com/css?family=Nunito:200,600" rel="stylesheet" type="text/css">
@@ -80,16 +80,14 @@
 
             <div class="content">
                 <div class="title m-b-md">
-                    Laravel
+                    早安，您好！
                 </div>
 
                 <div class="links">
-                    <a href=""{{ url('/logout') }}">到民宿網站</a>
-                    <a href="https://laracasts.com">Laracasts</a>
-                    <a href="https://laravel-news.com">News</a>
-                    <a href="https://nova.laravel.com">Nova</a>
-                    <a href="https://forge.laravel.com">Forge</a>
-                    <a href="https://github.com/laravel/laravel">GitHub</a>
+                    <div class="title"> <span style="font-size:26px">
+                        <a href="{{ url('/posts') }}">到民宿網站</a></span>
+                    </div>
+
                 </div>
             </div>
         </div>
