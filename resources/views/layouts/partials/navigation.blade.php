@@ -15,37 +15,37 @@
             <ul class="nav navbar-nav navbar-right">
 
                 <li>
-                    <a href="/"><span style="font-size:0.7cm;">|</span></a>
+                    <a><span style="font-size:0.7cm;">|</span></a>
                 </li>
                 <li>
                     <a href="{{route('posts.about')}}"><span style="font-size:0.7cm;"><span style="font-family:SimSun;">關於我們</span></span></a>
                 </li>
                 <li>
-                    <a href="/"><span style="font-size:0.7cm;">|</span></a>
+                    <a><span style="font-size:0.7cm;">|</span></a>
                 </li>
                 <li>
                     <a href="{{route('posts.show')}}"><span style="font-size:0.7cm;"><span style="font-family:SimSun;">房型介紹</span></span></a>
                 </li>
                 <li>
-                    <a href="/"><span style="font-size:0.7cm;">|</span></a>
+                    <a><span style="font-size:0.7cm;">|</span></a>
                 </li>
                 <li>
                     <a href="{{route('posts.booking')}}"><span style="font-size:0.7cm;"><span style="font-family:SimSun;">快速訂房</span></span></a>
                 </li>
                 <li>
-                <a href="/"><span style="font-size:0.7cm;">|</span></a>
+                    <a><span style="font-size:0.7cm;">|</span></a>
                 </li>
                 <li>
                     <a href="{{route('posts.contact')}}"><span style="font-size:0.7cm;"><span style="font-family:SimSun;">行程規劃</span></span></a>
                 </li>
                 <li>
-                <a href="/"><span style="font-size:0.7cm;">|</span></a>
+                    <a><span style="font-size:0.7cm;">|</span></a>
                 </li>
                 <li>
                     <a href="{{route('posts.review')}}"><span style="font-size:0.7cm;"><span style="font-family:SimSun;">回憶紀錄</span></span></a>
                 </li>
                 <li>
-                    <a href="/"><span style="font-size:0.7cm;">|</span></a>
+                    <a><span style="font-size:0.7cm;">|</span></a>
                 </li>
             </ul>
         </div>

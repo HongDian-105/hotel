@@ -143,7 +143,7 @@
 
                 <div class="col-md-12">
                     <div class="col-md-6">
-                        <div class="card"  style="padding-top: 30px">
+                        <div class="card" style="padding-top: 30px">
                             <div class="card-body">
                                 <img src="img/about-main.jpg" width="530">
                             </div>
@@ -261,21 +261,21 @@
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/004')}}"><font color="#737373" size="6" face="微軟正黑體">紅魽　四人房</font></a>
+                                <a href="{{url('/004')}}"><font color="#737373" size="6" face="標楷體">紅魽　四人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/005')}}"><font color="#737373" size="6" face="微軟正黑體">花枝丸 雙人房</font></a>
+                                <a href="{{url('/005')}}"><font color="#737373" size="6" face="標楷體">花枝丸 雙人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/006')}}"><font color="#737373" size="6" face="微軟正黑體">垵米　四人房</font></a>
+                                <a href="{{url('/006')}}"><font color="#737373" size="6" face="標楷體">垵米　四人房</font></a>
                             </div>
                         </div>
                     </div>
