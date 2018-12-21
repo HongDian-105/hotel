@@ -17,6 +17,12 @@
 </head>
 <body>
 
+<div>
+        <div class="top-right links" style="text-align: right">
+                <a href="{{ url('/logout') }}">Logout</a>
+        </div>
+</div>
+
 <div id="wrapper">
 
     <!-- Sidebar -->
