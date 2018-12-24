@@ -60,3 +60,6 @@ Auth::routes();
 Route::get('logout', 'Auth\LoginController@logout');
 Route::get('/home', 'HomeController@index')->name('home');
 Route::get('/admin', 'HomeController@show');
+
+/*後台*/
+Route::get('admin/booking' ,function (){return view('admin/booking');});

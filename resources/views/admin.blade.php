@@ -37,7 +37,7 @@
                 <a href="#">公告管理</a>
             </li>
             <li>
-                <a href="#">訂房管理</a>
+                <a href="admin/booking">訂房管理</a>
             </li>
 
         </ul>
