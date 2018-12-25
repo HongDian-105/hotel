@@ -18,9 +18,9 @@ class BookingController extends Controller
     }
     public function index()
     {
-
-
-        return view('AdminBooking');
+        $bookings=Booking::orderBy('name','ASC')->get();
+        $data=['bookings'=>$bookings];
+        return view('AdminBooking',$data);
     }
 
     /**
