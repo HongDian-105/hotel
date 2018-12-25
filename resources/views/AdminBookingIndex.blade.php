@@ -46,6 +46,17 @@
                             <td>{{$books->address}}</td>
                             <td>{{$books->StartTime}}</td>
                             <td>{{$books->EndTime}}</td>
+                            <td>
+                                <div>
+                                    <a href="{{ route('admin.booking.edit', $books->id) }}">編輯</a>
+                                    <form action="{{ route('admin.booking.destroy', $books->id) }}" method="POST">
+                                        {{ csrf_field() }}
+                                        {{ method_field('DELETE') }}
+
+                                        <button class="btn btn-link">刪除</button>
+                                    </form>
+                                </div>
+                            </td>
                         </tr>
                     @endforeach
                     </tbody>

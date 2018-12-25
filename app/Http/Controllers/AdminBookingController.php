@@ -37,7 +37,7 @@ class AdminBookingController extends Controller
     public function store(Request $request)
     {
         Booking::create($request->all());
-        return redirect()->route('AdminBookingIndex');
+        return redirect()->route('admin.booking.index');
     }
 
     /**
@@ -59,7 +59,9 @@ class AdminBookingController extends Controller
      */
     public function edit($id)
     {
-        //
+        $bookings=Booking::find($id);
+        $data = ['bookings' => $bookings];
+        return view('AdminBookingEdit', $data);
     }
 
     /**
@@ -71,7 +73,9 @@ class AdminBookingController extends Controller
      */
     public function update(Request $request, $id)
     {
-        //
+        $bookings=Booking::find($id);
+        $bookings->update($request->all());
+        return redirect()->route('admin.booking.index');
     }
 
     /**
@@ -82,6 +86,7 @@ class AdminBookingController extends Controller
      */
     public function destroy($id)
     {
-        //
+        Booking::destroy($id);
+        return redirect()->route('admin.booking.index');
     }
 }
