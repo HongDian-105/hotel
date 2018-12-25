@@ -12,13 +12,10 @@ class BookingController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
-    public function see()
-    {
-        return view('see');
-    }
+
     public function index()
     {
-        //
+        return view('chooseroom');
     }
 
     /**
@@ -40,7 +37,7 @@ class BookingController extends Controller
     public function store(Request $request)
     {
         Booking::create($request->all());
-        return redirect()->route('booking.see');
+        return redirect()->route('booking.chooseroom');
     }
 
     /**

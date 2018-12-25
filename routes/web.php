@@ -24,7 +24,7 @@ Route::get('booking',  ['as' => 'posts.booking',  'uses' => 'PostsController@boo
 Route::get('review',  ['as' => 'posts.review',  'uses' => 'PostsController@review']);
 
 /*快速訂房*/
-Route::get('see',  ['as'=>'booking.see','uses' => 'BookingController@see']);
+Route::get('chooseroom',  ['as'=>'booking.chooseroom','uses' => 'BookingController@index']);
 Route::post('store',['as'=>'booking.store','uses' => 'BookingController@store']);
 
 /*房型介紹-各房間*/
