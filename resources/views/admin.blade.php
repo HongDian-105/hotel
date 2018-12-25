@@ -37,7 +37,7 @@
                 <a href="#">公告管理</a>
             </li>
             <li>
-                <a href="admin/booking">訂房管理</a>
+                <a href="{{ route('admin.booking.index') }}">訂房管理</a>
             </li>
 
         </ul>

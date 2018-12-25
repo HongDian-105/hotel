@@ -59,7 +59,11 @@ Route::get('/009', function () {return view('一日遊方案三');});
 Auth::routes();
 Route::get('logout', 'Auth\LoginController@logout');
 Route::get('/home', 'HomeController@index')->name('home');
-Route::get('/admin', 'HomeController@show');
+
 
 /*後台*/
-Route::get('admin/booking' ,['uses'=>'BookingController@index']);
+Route::group(['prefix' => 'admin'], function() {
+    Route::get('/', 'HomeController@show');
+    Route::get('booking', ['as' => 'admin.booking.index', 'uses' => 'AdminBookingController@index']);
+    Route::post('booking', ['as' => 'admin.booking.store', 'uses' => 'AdminBookingController@store']);
+});
