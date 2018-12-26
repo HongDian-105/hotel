@@ -115,13 +115,15 @@
 
 
     <div class="col-md-12"style="background-color:transparent;">
-        <div class="col-md-4" style="padding-top: 30px">
+        <form action="{{route('')}}">
+            <div class="col-md-4" style="padding-top: 30px">
             <div class="card " style="background-color:transparent;">
                 <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                    <a href="{{url('/001')}}"><font color="#737373" size="6" face="標楷體" >小管　雙人房</font></a>
+                    <a><font color="#737373" size="6" face="標楷體" >小管　雙人房</font></a>
                 </div>
             </div>
         </div>
+    </form>
         <div class="col-md-4" style="padding-top: 30px;">
             <div class="card " style="background-color:transparent;">
                 <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
