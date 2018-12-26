@@ -12,4 +12,7 @@ class Room extends Model
         'price',
         'pic',
     ];
+    public function bookings(){
+        return $this->belongsTo('App\Booking');
+    }
 }

@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use App\Booking;
+use App\Room;
 use Illuminate\Http\Request;
 
 class BookingController extends Controller
@@ -15,7 +16,9 @@ class BookingController extends Controller
 
     public function index()
     {
-        return view('chooseroom');
+        $rooms=Room::orderBy('id','ASC')->get();
+        $data=['rooms'=>$rooms];
+        return view('chooseroom',$data);
     }
 
     /**
