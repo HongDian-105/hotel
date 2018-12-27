@@ -46,9 +46,9 @@
     <div class="container">
         {{--中--}}
         <div id="fun1">
-            <font size="5"><b>民宿簡介...</b></font>
-            <h1>『遠離吵雜，回歸純樸』</h1>
-            洪店民宿有六人房，四人房和二人房，遠離塵囂的馬公鬧區，是個安靜又離鬧區不遠的澎湖小漁村。我們不只是提供住的舒適的房間，最主要的是提供人的服務，讓您像是住到老朋友家。
+            <font style="font-size:35px" color="#000000" face="標楷體"><b>民宿簡介...</b></font>
+            <h1>　　『遠離吵雜，回歸純樸』</h1>
+            <font style="font-size:20px" color="#000000" face="標楷體">洪店民宿有六人房，四人房和二人房，遠離塵囂的馬公鬧區，是個安靜又離鬧區不遠的澎湖小漁村。我們不只是提供住的舒適的房間，最主要的是提供人的服務，讓您像是住到老朋友家。</font>
         </div>
 
         <div id="fun2">
@@ -56,42 +56,61 @@
         </div>
 
         <div id="fun1">
-            <font size="5"><b>經營理念...</b></font>
-            <h1>『我愛澎湖，澎湖愛我』</h1>
-            洪店民宿有六人房，四人房和二人房，遠離塵囂的馬公鬧區，是個安靜又離鬧區不遠的澎湖小漁村。我們不只是提供住的舒適的房間，最主要的是提供人的服務，讓您像是住到老朋友家。
+            <font style="font-size:35px" color="#000000" face="標楷體"><b>經營理念...</b></font>
+            <h1>　　『我愛澎湖，澎湖愛我』</h1>
+            <div class="col-md-12">
+                <div class="col-md-8" style="padding-top: 15px">
+                    <div class="card text-center" style="border-style:none;background-color:transparent;">
+                        <div class="card-body">
+                            <img src="img/HongDian-home.jpg" width="450" style="border-radius:20px;">
+                        </div>
+                    </div>
+                </div>
+            </div>
         </div>
 
         <br>
         <hr>
         <br>
         <div class="row">
-            {{--外<--}}
-            <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
-
-                {{--內--}}
-                <p align="center"><b><font face="Arial" color="black" size="5" >民宿環境</font></b></p>
-               <br>
-                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Saepe nostrum ullam eveniet pariatur voluptates odit, fuga atque ea nobis sit soluta odio, adipisci quas excepturi maxime quae totam ducimus consectetur?</p>--}}
-                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eius praesentium recusandae illo eaque architecto error, repellendus iusto reprehenderit, doloribus, minus sunt. Numquam at quae voluptatum in officia voluptas voluptatibus, minus!</p>--}}
-                {{--<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Nostrum molestiae debitis nobis, quod sapiente qui voluptatum, placeat magni repudiandae accusantium fugit quas labore non rerum possimus, corrupti enim modi! Et.</p>--}}
-                
+            <div class="col-md-12" style="padding-top: 30px">
+                <font style="font-size:18px;" color="#888888" face="標楷體"><b>－－－－－－－－－－－－－－－－－－－－－－－－－－－－－精選照片－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</b></font>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-12" style="padding-top: 30px">
+                <div class="owl-carousel owl-theme">
+                    <div class="item" style="width:480px"><img src="img/about/0.jpg" style="height:450px"></div>
+                    <div class="item" style="width:520px"><img src="img/about/1.jpg" style="height:450px"></div>
+                    <div class="item" style="width:350px"><img src="img/about/2.jpg" style="height:450px"></div>
+                    <div class="item" style="width:550px"><img src="img/about/3.jpg" style="height:450px"></div>
+                    <div class="item" style="width:500px"><img src="img/about/4.jpg" style="height:450px"></div>
+                    <div class="item" style="width:480px"><img src="img/about/5.jpg" style="height:450px"></div>
+                    <div class="item" style="width:400px"><img src="img/about/6.jpg" style="height:450px"></div>
+                    <div class="item" style="width:500px"><img src="img/about/7.jpg" style="height:450px"></div>
+                    <div class="item" style="width:550px"><img src="img/about/8.jpg" style="height:450px"></div>
+                    <div class="item" style="width:300px"><img src="img/about/9.jpg" style="height:450px"></div>
+                    <div class="item" style="width:450px"><img src="img/about/10.jpg" style="height:450px"></div>
+                    <div class="item" style="width:450px"><img src="img/about/11.jpg" style="height:450px"></div>
+                    <div class="item" style="width:450px"><img src="img/about/12.jpg" style="height:450px"></div>
+                    <div class="item" style="width:300px"><img src="img/about/13.jpg" style="height:450px"></div>
+                    <div class="item" style="width:300px"><img src="img/about/14.jpg" style="height:450px"></div>
+                    <div class="item" style="width:320px"><img src="img/about/15.jpg" style="height:450px"></div>
+                    <div class="item" style="width:350px"><img src="img/about/16.jpg" style="height:450px"></div>
+                    <div class="item" style="width:350px"><img src="img/about/21.jpg" style="height:450px"></div>
+                    <div class="item" style="width:420px"><img src="img/about/22.jpg" style="height:450px"></div>
+                    <div class="item" style="width:450px"><img src="img/about/23.jpg" style="height:450px"></div>
+                    <div class="item" style="width:450px"><img src="img/about/24.jpg" style="height:450px"></div>
+                    <div class="item" style="width:450px"><img src="img/about/25.jpg" style="height:450px"></div>
+                </div>
             </div>
         </div>
 
-
-        <div class="owl-carousel owl-theme">
-            <div class="item" style="width:300px" ><img src="img/about-main.jpg" >1</div>
-            <div class="item" style="width:600px"><img src="img/storeview/ship.jpg" width="100">2</div>
-            <div class="item" style="width:710px"><img src="img/storeview/view1.jpg" width="100">3</div>
-            <div class="item" style="width:300px"><img src="img/about-main.jpg" width="100">4</div>
-            <div class="item" style="width:300px">5</div>
-            <div class="item" style="width:300px">6</div>
-            <div class="item" style="width:300px">7</div>
-            <div class="item" style="width:300px">8</div>
-            <div class="item" style="width:300px">9</div>
-            <div class="item" style="width:300px">10</div>
-            <div class="item" style="width:300px">11</div>
-            <div class="item" style="width:300px">12</div>
+        <div class="row">
+            <div class="col-md-12" style="padding-top: 30px">
+                <font style="font-size:35px" color="#000000" face="標楷體"><b>地理位置...</b></font>
+                <iframe width='100%' height='200' frameborder='0' scrolling='no' marginheight='0' marginwidth='0' src='https://maps.google.com.tw/maps?f=q&hl=zh-TW&geocode=&q=澎湖縣白沙鄉中屯村10鄰中屯52之3號&z=16&output=embed&t='></iframe>
+            </div>
         </div>
 
         <script>
@@ -99,6 +118,9 @@
                 loop:true,
                 margin:10,
                 autoWidth:true,
+                autoplay:true,
+                autoplayTimeout:3500,
+                autoplayHoverPause:true,
                 responsive:{
                     0:{
                         items:1

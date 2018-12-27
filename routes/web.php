@@ -28,12 +28,12 @@ Route::get('see',  ['as'=>'booking.see','uses' => 'BookingController@see']);
 Route::post('store',['as'=>'booking.store','uses' => 'BookingController@store']);
 
 /*房型介紹-各房間*/
-Route::get('/001', function () {return view('小管房');});
-Route::get('/002', function () {return view('土魠房');});
-Route::get('/003', function () {return view('石斑房');});
-Route::get('/004', function () {return view('紅魽房');});
-Route::get('/005', function () {return view('花枝丸房');});
-Route::get('/006', function () {return view('垵米房');});
+Route::get('room1',  ['as' => 'room1',  'uses' => 'RoomDetailController@room1']);
+Route::get('room2',  ['as' => 'room2',  'uses' => 'RoomDetailController@room2']);
+Route::get('room3',  ['as' => 'room3',  'uses' => 'RoomDetailController@room3']);
+Route::get('room4',  ['as' => 'room4',  'uses' => 'RoomDetailController@room4']);
+Route::get('room5',  ['as' => 'room5',  'uses' => 'RoomDetailController@room5']);
+Route::get('room6',  ['as' => 'room6',  'uses' => 'RoomDetailController@room6']);
 
 /*行程規劃各分頁*/
 Route::get('2DayPlan',  [ 'as' => 'plan.2day','uses' => 'TripPlanController@twoDay']);

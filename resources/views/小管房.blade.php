@@ -2,7 +2,18 @@
 @section('title', '我是小管')
 @section('content')
 
-    <header class="intro-header" style="background-image: url('img/background/8.jpg')">
+    {{--css設計--}}
+    <style type="text/css">
+        /* 漸變 color1 - color2 - color1 */
+        hr.style-one {
+            border: 0;
+            height: 3px;
+            background: #333;
+            background-image: linear-gradient(to right, #ccc, #333, #ccc);
+        }
+    </style>
+
+    <header class="intro-header" style="background-image: url('img/view4.jpg')">
         <div class="container">
             <div class="row">
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
@@ -21,112 +32,146 @@
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
-                    <div class="col-md-8">
-                        <div class="card" style="border-style:none;background-color:red;">
+                    <div class="col-md-3" style="padding-top: 15px">
+                        <div class="card text-center" style="border-style:none;background-color:transparent;">
                             <div class="card-body">
-                                <img src="img/room/小管/4.jpg"width="730"style="border-radius: 50px;">
+                                <img src="img/小管-2.jpg" width="250" style="border-radius: 50px;">
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2"style="padding-top: 30px">
+                    <div class="col-md-9">
+                        <div class="card" style="background-image: url('img/background/1.gif');background-size:100% 100%;">
+                            <div class="card-body">
+                                <div class="wpb_wrapper">
+                                    <font color="#000000" face="標楷體" size="5">
+                                        <table class="table table-hover">
+                                            <thead>
+                                            <tr>
+                                                <th>　　　項目</th>
+                                                <th>　　　　　　　　　　內容</th>
+                                            </tr>
+                                            </thead>
+                                            <tbody>
+                                            <tr>
+                                                <td>　　房型介紹</td>
+                                                <td>　16坪(52.9平方公尺)；一特大床 (200x210cm)</td>
+                                            </tr>
+                                            <tr>
+                                                <td>　　客房設備</td>
+                                                <td>　迷你冰箱、快煮壺、免費礦泉水、密碼保險箱</td>
+                                            </tr>
+                                            <tr>
+                                                <td>　　通訊設備</td>
+                                                <td>　液晶電視、衛星電視、免費無線／寬頻網路</td>
+                                            </tr>
+                                            <tr>
+                                                <td>　　衛浴設備</td>
+                                                <td>　乾濕分離衛浴設備、盥洗用具、吹風機、毛巾、私人浴袍</td>
+                                            </tr>
+                                            <tr>
+                                                <td>　　貼心服務</td>
+                                                <td>　免費停車及提供早餐等服務</td>
+                                            </tr>
+                                            </tbody>
+                                        </table>
+                                    </font>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="col-md-2" style="padding-top: 20px">
+                        <div class="card text-center" style="border-style:none;background-color:transparent;">
+                            <div class="card-body">
+                                <font style="font-size:60px;line-height:0px;" color="#800000" ><b>NT</b></font><i class="fa fa-dollar fa-3x" style="color:#800000"></i>
+                                <br><font style="font-size:18px" color="#888888" face="標楷體">金額 3,600</font>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2" style="padding-top: 20px">
+                        <div class="card text-center" style="border-style:none;background-color:transparent;">
+                            <div class="card-body">
+                                <i class="fa fa-male fa-3x" style="color:#800000"></i><i class="fa fa-female fa-3x" style="color:#800000"></i>
+                                <br><font style="font-size:18px" color="#888888" face="標楷體">雙人房</font>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-2" style="padding-top: 20px">
                         <div class="card text-center" style="border-style:none;background-color:transparent;">
                             <div class="card-body">
                                 <i class="fa fa-wifi fa-3x" style="color:#800000"></i>
-                                <br><font style="font-size:18px;" color="#888888"face="標楷體">免費wifi</font>
+                                <br><font style="font-size:18px" color="#888888" face="標楷體">免費wifi</font>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2"style="padding-top: 30px">
+                    <div class="col-md-2" style="padding-top: 20px">
                         <div class="card text-center" style="border-style:none;background-color:transparent;">
                             <div class="card-body">
-                                <i class="fa fa-car fa-3x" style="color:#800000"></i>
-                                <br><font style="font-size:18px;" color="#888888"face="標楷體">免費停車</font>
+                                    <i class="fa fa-car fa-3x" style="color:#800000"></i>
+                                    <br><font style="font-size:18px" color="#888888" face="標楷體">免費停車</font>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2"style="padding-top: 30px">
+                    <div class="col-md-2" style="padding-top: 20px">
                         <div class="card text-center" style="border-style:none;background-color:transparent;">
                             <div class="card-body">
-                                <i class="fa fa-inbox fa-3x" style="color:#800000"></i>
-                                <br><font style="font-size:18px;" color="#888888"face="標楷體">保險箱</font>
+                                <i class="fa fa-music fa-3x" style="color:#800000"></i>
+                                <br><font style="font-size:18px" color="#888888" face="標楷體">音響</font>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-2"style="padding-top: 30px">
-                        <div class="card text-center" style="border-style:none;background-color:transparent;">
-                            <div class="card-body">
-                                <i class="fa fa-wifi fa-3x" style="color:#800000"></i>
-                                <br><font style="font-size:18px;" color="#888888"face="標楷體">冰箱</font>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2"style="padding-top: 30px">
-                        <div class="card text-center" style="border-style:none;background-color:transparent;">
-                            <div class="card-body">
-                                <i class="fa fa-lock fa-3x" style="color:#800000"></i>
-                                <br><font style="font-size:18px;" color="#888888"face="標楷體">浴袍</font>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2"style="padding-top: 30px">
+                    <div class="col-md-2" style="padding-top: 20px">
                         <div class="card text-center" style="border-style:none;background-color:transparent;">
                             <div class="card-body">
                                 <i class="fa fa-television fa-3x" style="color:#800000"></i>
-                                <br><font style="font-size:18px;" color="#888888"face="標楷體">液晶電視</font>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2"style="padding-top: 100px">
-                        <div class="card text-center" style="border-style:none;background-color:transparent;">
-                            <div class="card-body">
-                                <img src="img/room/小管/小管key.png"width="150">
-                            </div>
-                        </div>
-                    </div>
-                    <div class="col-md-2"style="padding-top: 90px">
-                        <div class="card text-center" style="border-style:none;background-color:transparent;">
-                            <div class="card-body">
-                                <button type="button" style="width:150px;height:70px;font-size:30px;font-family:Microsoft JhengHei;background-color:#f1e1ff;border-radius: 20px;" onclick="location.href='booking'">我要訂房</button>
+                                <br><font style="font-size:18px" color="#888888" face="標楷體">液晶電視</font>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12"style="padding-top: 30px">
-                    <font style="font-size:18px;" color="#888888"face="標楷體">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－房間設備－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</font>
+                <div class="col-md-12" style="padding-top: 30px">
+                    <font style="font-size:18px;" color="#888888" face="標楷體">－－－－－－－－－－－－－－－－－－－－－－－－－－－－－房間環境－－－－－－－－－－－－－－－－－－－－－－－－－－－－－－</font>
                 </div>
             </div>
             <div class="row">
-                <div class="col-md-12"style="padding-top: 30px">
+                <div class="col-md-12" style="padding-top: 30px">
                     <div class="owl-carousel owl-theme">
-                        <div class="item" style="width:600px" ><img src="img/room/小管/1.jpg"></div>
-                        <div class="item" style="width:600px"><img src="img/room/小管/2.jpg" ></div>
-                        <div class="item" style="width:600px"><img src="img/room/小管/3.jpg" ></div>
-                        <div class="item" style="width:600px"><img src="img/room/小管/4.jpg" ></div>
-                        <div class="item" style="width:600px"><img src="img/room/小管/5.jpg" ></div>
-                        <div class="item" style="width:600px"><img src="img/room/小管/6.jpg" ></div>
-                        <div class="item" style="width:600px"><img src="img/room/小管/7.jpg" ></div>
+                        <div class="item" style="width:600px"><img src="img/room/小管/1.jpg"></div>
+                        <div class="item" style="width:600px"><img src="img/room/小管/2.jpg"></div>
+                        <div class="item" style="width:600px"><img src="img/room/小管/3.jpg"></div>
+                        <div class="item" style="width:600px"><img src="img/room/小管/4.jpg"></div>
+                        <div class="item" style="width:600px"><img src="img/room/小管/5.jpg"></div>
+                        <div class="item" style="width:600px"><img src="img/room/小管/6.jpg"></div>
+                        <div class="item" style="width:600px"><img src="img/room/小管/7.jpg"></div>
                     </div>
                 </div>
             </div>
-            <div class="row">
-                <div class="col-md-12"style="padding-top: 50px">
-                    <div class="col-md-6">
-                        <div class="card" style="border-style:none;background-color:transparent;text-align:center;">
-                            <div class="card-body">
-                                <a href="{{url('/000')}}"><font style="font-size:18px;" color="#888888"face="標楷體"><i class="fa fa-arrow-left fa-1x" style="color:#800000"></i>小管房</font></a>
+            <div class="col-md-12" style="padding-top:30px">
+                <hr class="style-one"/>
+                <div class="row">
+                    <div class="col-md-12">
+                        <div class="col-md-6">
+                            <div class="card" style="border-style:none;background-color:transparent;text-align:center;">
+                                <div class="card-body">
+                                    <a href="{{url('/room1')}}"><font style="font-size:20px" color="gray" face="標楷體"><i class="fa fa-arrow-left fa-1x" style="color:gray"></i>小管房</font></a>
+                                </div>
                             </div>
                         </div>
-                    </div>
-                    <div class="col-md-6">
-                        <div class="card" style="border-style:none;background-color:transparent;text-align:center;">
-                            <div class="card-body">
-                                <a href="{{url('/002')}}"><font style="font-size:18px;" color="#888888"face="標楷體">土魠房<i class="fa fa-arrow-right fa-1x" style="color:#800000"></i></font></a>
+                        <div class="col-md-6">
+                            <div class="card" style="border-style:none;background-color:transparent;text-align:center;">
+                                <div class="card-body">
+                                    <a href="{{url('/room2')}}"><font style="font-size:20px" color="gray" face="標楷體">土魠房<i class="fa fa-arrow-right fa-1x" style="color:gray"></i></font></a>
+                                </div>
                             </div>
                         </div>
                     </div>
                 </div>
+                <hr class="style-one"/>
+            </div>
             </div>
         </div>
     </article>
@@ -136,7 +181,7 @@
             margin:10,
             autoWidth:true,
             autoplay:true,
-            autoplayTimeout:2000,
+            autoplayTimeout:3500,
             autoplayHoverPause:true,
             responsive:{
                 0:{

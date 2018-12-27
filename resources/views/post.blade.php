@@ -184,32 +184,32 @@
                                             <tr>
                                                 <td>　小管房</td>
                                                 <td>　一大床</td>
-                                                <td>　5,000</td>
+                                                <td>　3,600</td>
                                             </tr>
                                             <tr>
                                                 <td>　土魠房</td>
                                                 <td>　兩大床</td>
-                                                <td>　5,000</td>
+                                                <td>　4,800</td>
                                             </tr>
                                             <tr>
                                                 <td>　石斑房</td>
                                                 <td>　三大床</td>
-                                                <td>　5,000</td>
+                                                <td>　6,600</td>
                                             </tr>
                                             <tr>
                                                 <td>　紅魽房</td>
                                                 <td>　兩大床</td>
-                                                <td>　5,000</td>
+                                                <td>　4,500</td>
                                             </tr>
                                             <tr>
                                                 <td>　花枝丸房</td>
                                                 <td>　一大床</td>
-                                                <td>　5,000</td>
+                                                <td>　3,600</td>
                                             </tr>
                                             <tr>
                                                 <td>　垵米房</td>
                                                 <td>　兩大床</td>
-                                                <td>　5,000</td>
+                                                <td>　4,500</td>
                                             </tr>
                                             </tbody>
                                         </table>
@@ -223,21 +223,21 @@
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/001')}}"><font color="#737373" size="6" face="標楷體" >小管　雙人房</font></a>
+                                <a href="{{url('/room1')}}"><font color="#737373" size="6" face="標楷體" >小管　雙人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px;">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/002')}}"><font color="#737373" size="6" face="標楷體">土魠　四人房</font></a>
+                                <a href="{{url('/room2')}}"><font color="#737373" size="6" face="標楷體">土魠　四人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/003')}}"><font color="#737373" size="6" face="標楷體">石斑　六人房</font></a>
+                                <a href="{{url('/room3')}}"><font color="#737373" size="6" face="標楷體">石斑　六人房</font></a>
                             </div>
                         </div>
                     </div>
@@ -261,21 +261,21 @@
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/004')}}"><font color="#737373" size="6" face="標楷體">紅魽　四人房</font></a>
+                                <a href="{{url('/room4')}}"><font color="#737373" size="6" face="標楷體">紅魽　四人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/005')}}"><font color="#737373" size="6" face="標楷體">花枝丸 雙人房</font></a>
+                                <a href="{{url('/room5')}}"><font color="#737373" size="6" face="標楷體">花枝丸 雙人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
                             <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/006')}}"><font color="#737373" size="6" face="標楷體">垵米　四人房</font></a>
+                                <a href="{{url('/room6')}}"><font color="#737373" size="6" face="標楷體">垵米　四人房</font></a>
                             </div>
                         </div>
                     </div>
