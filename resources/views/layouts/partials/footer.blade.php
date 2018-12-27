@@ -33,28 +33,24 @@
                     <a href="{{url('/booking')}}"><font style="font-size:18px;" color="#696969" face="標楷體">快速訂房</font></a>
                 </div>
                 <div class="col-md-2" style="background-color:transparent">
-                    <div class="card">
-                        <div class="card-body">
-                            <ul class="list-inline text-center">
-                                <li>
-                                    <a href="https://goo.gl/6Ccft4">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                                <li>
-                                    <a href="https://www.instagram.com/">
-                                        <span class="fa-stack fa-lg">
-                                            <i class="fa fa-circle fa-stack-2x"></i>
-                                            <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
-                                        </span>
-                                    </a>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
+                    <ul class="list-inline text-center">
+                        <li>
+                            <a href="https://goo.gl/6Ccft4">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-facebook fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.instagram.com/">
+                                <span class="fa-stack fa-lg">
+                                    <i class="fa fa-circle fa-stack-2x"></i>
+                                    <i class="fa fa-instagram fa-stack-1x fa-inverse"></i>
+                                </span>
+                            </a>
+                        </li>
+                    </ul>
                 </div>
             </div>
         </div>
@@ -65,8 +61,6 @@
                         <a href="{{ url('/logout') }}">Logout</a>
                         @else
                             <a href="{{ route('login') }}">Login</a>
-                            <span style="font-size:0.7cm;">|</span>
-                            <a href="{{ route('register') }}">Register</a>
                             @endauth
                 </div>
             @endif

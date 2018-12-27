@@ -6,8 +6,10 @@ use Illuminate\Database\Eloquent\Model;
 
 class Booking extends Model
 {
+    protected $table = 'bookings';
     protected $fillable = [
         'name',
+        'rooms_id',
         'email',
         'phone',
         'country',
@@ -15,4 +17,7 @@ class Booking extends Model
         'StartTime',
         'EndTime',
     ];
+    public function rooms(){
+        return $this->hasMany('App\Room');
+    }
 }

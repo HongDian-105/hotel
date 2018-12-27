@@ -1,24 +1,21 @@
 <?php
 
 namespace App\Http\Controllers;
-
 use App\Booking;
-use App\Room;
 use Illuminate\Http\Request;
 
-class BookingController extends Controller
+class AdminBookingController extends Controller
 {
     /**
      * Display a listing of the resource.
      *
      * @return \Illuminate\Http\Response
      */
-
     public function index()
     {
-        $rooms=Room::orderBy('id','ASC')->get();
-        $data=['rooms'=>$rooms];
-        return view('chooseroom',$data);
+        $bookings=Booking::orderBy('id','ASC')->get();
+        $data=['bookings'=>$bookings];
+        return view('AdminBookingIndex',$data);
     }
 
     /**
@@ -40,16 +37,16 @@ class BookingController extends Controller
     public function store(Request $request)
     {
         Booking::create($request->all());
-        return redirect()->route('booking.chooseroom');
+        return redirect()->route('admin.booking.index');
     }
 
     /**
      * Display the specified resource.
      *
-     * @param  \App\Booking  $booking
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function show(Booking $booking)
+    public function show($id)
     {
         //
     }
@@ -57,34 +54,39 @@ class BookingController extends Controller
     /**
      * Show the form for editing the specified resource.
      *
-     * @param  \App\Booking  $booking
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function edit(Booking $booking)
+    public function edit($id)
     {
-        //
+        $bookings=Booking::find($id);
+        $data = ['bookings' => $bookings];
+        return view('AdminBookingEdit', $data);
     }
 
     /**
      * Update the specified resource in storage.
      *
      * @param  \Illuminate\Http\Request  $request
-     * @param  \App\Booking  $booking
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function update(Request $request, Booking $booking)
+    public function update(Request $request, $id)
     {
-        //
+        $bookings=Booking::find($id);
+        $bookings->update($request->all());
+        return redirect()->route('admin.booking.index');
     }
 
     /**
      * Remove the specified resource from storage.
      *
-     * @param  \App\Booking  $booking
+     * @param  int  $id
      * @return \Illuminate\Http\Response
      */
-    public function destroy(Booking $booking)
+    public function destroy($id)
     {
-        //
+        Booking::destroy($id);
+        return redirect()->route('admin.booking.index');
     }
 }
