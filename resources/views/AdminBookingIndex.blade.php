@@ -27,6 +27,7 @@
                    <thead>
                     <tr>
                         <th width="100" style="text-align:left">訂房編號：</th>
+                        <th width="100" style="text-align:left">房型編號：</th>
                         <th width="70" style="text-align: center">聯絡人：</th>
                         <th width="30" style="text-align: center">email：</th>
                         <th width="30" style="text-align: center">電話：</th>
@@ -41,6 +42,7 @@
                     @foreach($bookings as $books)
                         <tr>
                             <td>{{$books->id}}</td>
+                            <td>{{$books->rooms_id}}</td>
                             <td>{{$books->name}}</td>
                             <td>{{$books->email}}</td>
                             <td>{{$books->phone}}</td>
