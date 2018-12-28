@@ -10,7 +10,7 @@
             height:250px;
             overflow:hidden;
             border-radius:125px;
-            margin-left:7%;/*與左間隔*/
+            margin-left:12%;/*與左間隔*/
             margin-top:15px;/*與上間隔*/
         }
         #circular--landscape-1 img{
@@ -40,7 +40,7 @@
             height:250px;
             overflow:hidden;
             border-radius:125px;
-            margin-left:9%;/*與左間隔*/
+            margin-left:12%;/*與左間隔*/
             margin-top:15px;/*與上間隔*/
         }
         #circular--landscape-3 img{
@@ -54,7 +54,7 @@
             height:250px;
             overflow:hidden;
             border-radius:125px;
-            margin-left:7%;/*與左間隔*/
+            margin-left:12%;/*與左間隔*/
             margin-top:15px;/*與上間隔*/
         }
         #circular--landscape-4 img{
@@ -84,20 +84,12 @@
             height:250px;
             overflow:hidden;
             border-radius:125px;
-            margin-left:9%;/*與左間隔*/
+            margin-left:12%;/*與左間隔*/
             margin-top:15px;/*與上間隔*/
         }
         #circular--landscape-6 img{
             width:auto;
             height:100%;
-        }
-    </style>
-
-    <style>
-        .vertical-mode {
-            writing-mode: tb-rl;
-            -webkit-writing-mode: vertical-rl;
-            writing-mode: vertical-rl;
         }
     </style>
 
@@ -142,14 +134,14 @@
                 </div>
 
                 <div class="col-md-12">
-                    <div class="col-md-6">
-                        <div class="card" style="padding-top: 30px">
+                    <div class="col-md-6" style="padding-top: 30px">
+                        <div class="card text-center">
                             <div class="card-body">
-                                <img src="img/about-main.jpg" width="530">
+                                <img src="img/about-main.jpg" width=107%>
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-6"style="padding-top: 30px">
+                    <div class="col-md-6" style="padding-top: 30px">
                         <div class="card text-center" style="background-image: url('img/background/5.jpg');filter:alpha(opacity=.1);background-size: 570px 350px;">
                             <div class="card-body">
                                 <font face="標楷體" size="5" >
@@ -165,13 +157,12 @@
                             </div>
                         </div>
                     </div>
-
-                    <div class="col-md-6"style="padding-top: 30px">
-                        <div class="card" style="background-image: url('img/rightback.png');background-size:100% 105%">
+                    <div class="col-md-6" style="padding-top:10px">
+                        <div class="card" style="background-image: url('img/rightback.png');background-size:102% 103%">
                             <div class="card-body">
                                 <div class="wpb_wrapper">
-                                    <font color="#000000" face="標楷體" size="5" style="line-height:0px;">
-                                        <font size="6"><b>　　　　　　房價一覽表</b></font>
+                                    <font color="#000000" face="標楷體" size="5" style="line-height:15px;">
+                                        <font size="6"><b>　　　　　房價一覽表</b></font>
                                         <table class="table table-hover">
                                             <thead>
                                             <tr>
@@ -219,80 +210,120 @@
                         </div>
                     </div>
                 </div>
-                <div class="col-md-12"style="background-color:transparent;">
+                <div class="col-md-12" style="background-color:transparent;">
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
-                            <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
-                                <a href="{{url('/room1')}}"><font color="#737373" size="6" face="標楷體" >小管　雙人房</font></a>
+                            <div class="card-header" style="width:350px;height:60px;text-align:center;line-height:40px;">
+                                <a href="{{url('/room1')}}"><font color="#737373" size="6" face="標楷體">小管　雙人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px;">
                         <div class="card " style="background-color:transparent;">
-                            <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
+                            <div class="card-header" style="width:350px;height:60px;text-align:center;line-height:40px;">
                                 <a href="{{url('/room2')}}"><font color="#737373" size="6" face="標楷體">土魠　四人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
-                            <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
+                            <div class="card-header" style="width:350px;height:60px;text-align:center;line-height:40px;">
                                 <a href="{{url('/room3')}}"><font color="#737373" size="6" face="標楷體">石斑　六人房</font></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="circular--landscape-1">
-                    <div id="circular--landscape-1 img">
-                        <img src="img/小管-2.jpg">
+                <div class="col-md-12" style="background-color:transparent;">
+                    <div class="col-md-4">
+                        <div class="card " style="background-color:transparent;">
+                            <div class="card-body">
+                                <div id="circular--landscape-1">
+                                    <div id="circular--landscape-1 img">
+                                        <img src="img/小管-2.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card " style="background-color:transparent;">
+                            <div class="card-body">
+                                <div id="circular--landscape-2">
+                                    <div id="circular--landscape-2 img">
+                                        <img src="img/土魠.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4">
+                        <div class="card " style="background-color:transparent;">
+                            <div class="card-body">
+                                <div id="circular--landscape-3">
+                                    <div id="circular--landscape-3 img">
+                                        <img src="img/石斑-2.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
-                <div id="circular--landscape-2">
-                    <div id="circular--landscape-2 img">
-                        <img src="img/土魠.jpg">
-                    </div>
-                </div>
-                <div id="circular--landscape-3">
-                    <div id="circular--landscape-3 img">
-                        <img src="img/石斑-2.jpg">
-                    </div>
-                </div>
-                <div class="col-md-12"style="background-color:transparent;">
+                <div class="col-md-12" style="background-color:transparent;">
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
-                            <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
+                            <div class="card-header" style="width:350px;height:60px;text-align:center;line-height:40px;">
                                 <a href="{{url('/room4')}}"><font color="#737373" size="6" face="標楷體">紅魽　四人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
-                            <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
+                            <div class="card-header" style="width:350px;height:60px;text-align:center;line-height:40px;">
                                 <a href="{{url('/room5')}}"><font color="#737373" size="6" face="標楷體">花枝丸 雙人房</font></a>
                             </div>
                         </div>
                     </div>
                     <div class="col-md-4" style="padding-top: 30px">
                         <div class="card " style="background-color:transparent;">
-                            <div class="card-body" style="width:350px;height:60px;text-align:center;line-height:60px;">
+                            <div class="card-header" style="width:350px;height:60px;text-align:center;line-height:40px;">
                                 <a href="{{url('/room6')}}"><font color="#737373" size="6" face="標楷體">垵米　四人房</font></a>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div id="circular--landscape-4">
-                    <div id="circular--landscape-4 img">
-                        <img src="img/紅魽.jpg">
+                <div class="col-md-12" style="background-color:transparent;">
+                    <div class="col-md-4">
+                        <div class="card " style="background-color:transparent;">
+                            <div class="card-body">
+                                <div id="circular--landscape-4">
+                                    <div id="circular--landscape-4 img">
+                                        <img src="img/紅魽.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div id="circular--landscape-5">
-                    <div id="circular--landscape-5 img">
-                        <img src="img/花枝丸.jpg">
+                    <div class="col-md-4">
+                        <div class="card " style="background-color:transparent;">
+                            <div class="card-body">
+                                <div id="circular--landscape-5">
+                                    <div id="circular--landscape-5 img">
+                                        <img src="img/花枝丸.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
-                </div>
-                <div id="circular--landscape-6">
-                    <div id="circular--landscape-6 img">
-                        <img src="img/垵米.jpg">
+                    <div class="col-md-4">
+                        <div class="card " style="background-color:transparent;">
+                            <div class="card-body">
+                                <div id="circular--landscape-6">
+                                    <div id="circular--landscape-6 img">
+                                        <img src="img/垵米.jpg">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </div>
