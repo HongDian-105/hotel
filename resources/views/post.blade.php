@@ -3,6 +3,16 @@
 @section('content')
     {{--css設計--}}
     <style type="text/css">
+        #fun1{
+            width:555px;
+            line-height:30px;
+            padding:5px;
+            /*border:2px blue solid;*/
+            margin-right:10px;
+            margin-top:20px;/*與上間隔*/
+            margin-bottom:5px;/*與下間隔*/
+            float:left;
+        }
         #circular--landscape-1{
             display:inline-block;
             position:relative;
@@ -134,11 +144,9 @@
                 </div>
 
                 <div class="col-md-12">
-                    <div class="col-md-6" style="padding-top: 30px">
-                        <div class="card text-center">
-                            <div class="card-body">
-                                <img src="img/about-main.jpg" width=107%>
-                            </div>
+                    <div class="col-md-6" style="padding-top:22px">
+                        <div id="fun1">
+                            <img src="img/about-main.jpg" width=100%>
                         </div>
                     </div>
                     <div class="col-md-6" style="padding-top: 30px">

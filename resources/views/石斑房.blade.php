@@ -93,9 +93,9 @@
                         <div class="col-md-2" style="padding-top: 20px">
                             <div class="card text-center" style="border-style:none;background-color:transparent;">
                                 <div class="card-body">
-                                    <i class="fa fa-male fa-3x" style="color:#800000"></i><i class="fa fa-female fa-3x" style="color:#800000"></i>
                                     <i class="fa fa-male fa-2x" style="color:#800000"></i><i class="fa fa-female fa-2x" style="color:#800000"></i>
                                     <i class="fa fa-male fa-1x" style="color:#800000"></i><i class="fa fa-female fa-1x" style="color:#800000"></i>
+                                    <i class="fa fa-male fa-2x" style="color:#800000"></i><i class="fa fa-female fa-2x" style="color:#800000"></i>
                                     <br><font style="font-size:18px" color="#888888" face="標楷體">六人房</font>
                                 </div>
                             </div>
