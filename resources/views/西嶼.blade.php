@@ -21,7 +21,7 @@
         </div>
     </header>
     @include('layouts.link')
-<img src="img/map/西嶼.jpg" style="display:block; margin:auto;"/>
+<img src="img/map/西嶼1.jpg" style="display:block; margin:auto;"/>
 
 
 

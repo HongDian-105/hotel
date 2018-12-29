@@ -36,7 +36,7 @@
                     <div class="page-heading">
                         <h1>行程規劃</h1>
                         <hr class="small">
-                        <span class="subheading">一日遊行程---本島漫遊之旅</span>
+                        <span class="subheading">一日遊行程---夏夜之美。夜釣小管</span>
                     </div>
                 </div>
             </div>
@@ -65,8 +65,7 @@
         </div>
         <div class="grid-container">
             <div class="item1">
-                <img src="img/dayplanview/1dayA2.jpg" width="450">
-
+                <img src="img/dayplanview/1dayA2.1.jpg" width="450">
             </div>
             <div class="item2">
 
@@ -181,21 +180,17 @@
                 </p>
             </div>
         </div>
-
-
-    </div><div> <font color="#737373" size="5" face="微軟正黑體"><b>還沒</b></font><br>
-    </div>
-    <div class="grid-container">
-        <div class="item1">
-
-
-        </div>
-        <div class="item2">
-            <font color="#737373" size="6" face="微軟正黑體"><b>還</b></font><br><br>
-            <font color="#737373" size="4" face="微軟正黑體"><b>沒</b></font><br><br>
-
-        </div>
-    </div>
+        <p class="text-center">
+            <br><i class="fa fa-plane fa-4x"> <font color="#737373" size="8" face="微軟正黑體"><b>旅程結束~~返程</b></font></i>
+            <i class="fa fa-ship fa-4x"></i><br><br>
+        </p>
+        <font color="#737373" size="6" face="微軟正黑體"><b>遊客需知</b></font><br><br>
+        <font color="#737373" size="3" face="微軟正黑體"><b>  ★ 買澎湖名產要貨比三家才不吃虧。（ 黑糖糕只有三天保存期限 ，強烈建議最後一天回台灣再買）</b></font><br>
+        <font color="#737373" size="3" face="微軟正黑體"><b>  ★ 買澎湖文石要第一天買最好，萬一刻錯名字還有時間修改，而且趕工出來的刻印品質會小問題較多。</b></font><br>
+        <font color="#737373" size="3" face="微軟正黑體"><b>  ★ 吃澎湖海鮮可要先確定好價錢 ，很多遊客都吃完海鮮再付款時才發現價錢貴的離譜ㄋ。</b></font><br>
+        <font color="#737373" size="3" face="微軟正黑體"><b>  ★ 在澎湖的大馬路上騎乘機車或開車，時速不要超過６ ０公里 ，否則保證回台灣後一定收到超速照片。</b></font><br>
+        <font color="#737373" size="3" face="微軟正黑體"><b>  ★ 使用學生證購買旅遊景點門票、離島公共交通船..等會有學生優惠價ㄡ。</b></font><br>
+        <font color="#737373" size="3" face="微軟正黑體"><b>  ★ 馬公市中心無線網路漫遊已全部開通 ，歡迎各位遊客自行攜帶筆記型電腦來ㄡ。</b></font><br>
 
     </div>
     </div>
