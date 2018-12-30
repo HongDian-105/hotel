@@ -36,7 +36,7 @@
                     <div class="page-heading">
                         <h1>行程規劃</h1>
                         <hr class="small">
-                        <span class="subheading">一日遊行程---夏夜之美。夜釣小管</span>
+                        <span class="subheading">一日遊行程---七美一日遊</span>
                     </div>
                 </div>
             </div>
@@ -167,7 +167,7 @@
                 </p>
             </div>
         </div>
-      
+
         <p class="text-center">
         <br><i class="fa fa-plane fa-4x"> <font color="#737373" size="8" face="微軟正黑體"><b>旅程結束~~返程</b></font></i>
         <i class="fa fa-ship fa-4x"></i><br><br>

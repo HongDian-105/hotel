@@ -36,7 +36,7 @@
                     <div class="page-heading">
                         <h1>行程規劃</h1>
                         <hr class="small">
-                        <span class="subheading">一日遊行程---夏夜之美。夜釣小管</span>
+                        <span class="subheading">一日遊行程---澎湖自然文化之旅</span>
                     </div>
                 </div>
             </div>
