@@ -31,7 +31,7 @@
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <input type="text" class="form-control" placeholder="姓名" name="name">
-                        </div>
+                    </div>
                     </div>
                     <br>
                     <div class="row control-group">

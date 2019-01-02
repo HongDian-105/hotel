@@ -3,6 +3,7 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
+USE App\Room;
 
 class PostsController extends Controller
 {
@@ -19,7 +20,10 @@ class PostsController extends Controller
     public function show()
     {
         //
-        return view('post');
+        $rooms=Room::orderBy('id','ASC')->get();
+        $data=['rooms'=>$rooms];
+        return view('post',$data);
+
     }
 
 
