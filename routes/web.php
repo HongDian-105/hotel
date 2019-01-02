@@ -54,6 +54,10 @@ Route::get('1DayPlanA',  ['as' => '1DayPlanA', 'uses' => 'TripPlanController@one
 Route::get('1DayPlanB',  ['as' => '1DayPlanB', 'uses' => 'TripPlanController@oneDayB']);
 Route::get('1DayPlanC',  ['as' => '1DayPlanC', 'uses' => 'TripPlanController@oneDayC']);
 
+Route::get('2DayPlanA',  ['as' => '2DayPlanA', 'uses' => 'TripPlanController@twoDayA']);
+Route::get('2DayPlanB',  ['as' => '2DayPlanB', 'uses' => 'TripPlanController@twoDayB']);
+Route::get('2DayPlanC',  ['as' => '2DayPlanC', 'uses' => 'TripPlanController@twoDayC']);
+
 Route::get('ViewPoint1吉貝',  ['as' => 'ViewPoint1', 'uses' => 'TripPlanController@ViewPoint1']);
 Route::get('ViewPoint2白沙',  ['as' => 'ViewPoint2', 'uses' => 'TripPlanController@ViewPoint2']);
 Route::get('ViewPoint3七美',  ['as' => 'ViewPoint3', 'uses' => 'TripPlanController@ViewPoint3']);
@@ -61,9 +65,6 @@ Route::get('ViewPoint4南環',  ['as' => 'ViewPoint4', 'uses' => 'TripPlanContro
 Route::get('ViewPoint5望安',  ['as' => 'ViewPoint5', 'uses' => 'TripPlanController@ViewPoint5']);
 Route::get('ViewPoint6湖西',  ['as' => 'ViewPoint6', 'uses' => 'TripPlanController@ViewPoint6']);
 Route::get('ViewPoint6西嶼',  ['as' => 'ViewPoint7', 'uses' => 'TripPlanController@ViewPoint7']);
-Route::get('/007', function () {return view('一日遊方案一');});
-Route::get('/008', function () {return view('一日遊方案二');});
-Route::get('/009', function () {return view('一日遊方案三');});
 
 /*登入，auth驗證等等......*/
 Auth::routes();

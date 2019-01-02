@@ -21,7 +21,7 @@
         </div>
     </header>
     @include('layouts.link')
-<img src="img/吉貝旅遊地圖.jpg" style="display:block; margin:auto;"/>
+<img src="img/map/吉貝1.jpg" style="display:block; margin:auto;"/>
 
 
 

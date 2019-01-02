@@ -65,6 +65,7 @@
                         </div>
                     </div>
                     <br>
+
                     <div class="row control-group">
                         <div class="form-group col-xs-12 floating-label-form-group controls">
                             <input type="date" name="EndTime" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d'); ?>" max="2019-01-31">
@@ -72,6 +73,17 @@
                     </div>
 
 
+                    <div class ="row">
+                        <select name="rooms_id" type="submit">
+                            @foreach($rooms as $rs)
+                                <option value="{{$rs->id}}">{{$rs->name}}</option>
+                                @endforeach
+                        </select>
+
+
+                    </div>
+
+                    <br>
                     <div class="row">
                         <div class="form-group col-xs-12">
                             <input type="submit" value="送出" >

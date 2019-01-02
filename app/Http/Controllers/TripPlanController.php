@@ -36,6 +36,21 @@ class TripPlanController extends Controller
 
         return view('二日行程');
     }
+    public function twoDayA()
+    {
+
+        return view('二日遊方案一');
+    }
+    public function twoDayB()
+    {
+
+        return view('二日遊方案二');
+    }
+    public function twoDayC()
+    {
+
+        return view('二日遊方案三');
+    }
     public function threeDay()
     {
 
@@ -46,8 +61,6 @@ class TripPlanController extends Controller
 
         return view('四日行程');
     }
-
-
 
     public function ViewPoint1()
     {

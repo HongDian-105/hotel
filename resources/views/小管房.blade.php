@@ -40,7 +40,7 @@
                         </div>
                     </div>
                     <div class="col-md-9">
-                        <div class="card" style="background-image: url('img/background/1.gif');background-size:100% 100%;">
+                        <div class="card" style="border-style:none;background-image: url('img/background/1.gif');background-size:100% 100%;">
                             <div class="card-body">
                                 <div class="wpb_wrapper">
                                     <font color="#000000" face="標楷體" size="5">
@@ -53,23 +53,23 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td>　　房型介紹</td>
+                                                <td>　房型介紹</td>
                                                 <td>　16坪(52.9平方公尺)；一特大床 (200x210cm)</td>
                                             </tr>
                                             <tr>
-                                                <td>　　客房設備</td>
+                                                <td>　客房設備</td>
                                                 <td>　迷你冰箱、快煮壺、免費礦泉水、密碼保險箱</td>
                                             </tr>
                                             <tr>
-                                                <td>　　通訊設備</td>
+                                                <td>　通訊設備</td>
                                                 <td>　液晶電視、衛星電視、免費無線／寬頻網路</td>
                                             </tr>
                                             <tr>
-                                                <td>　　衛浴設備</td>
+                                                <td>　衛浴設備</td>
                                                 <td>　乾濕分離衛浴設備、盥洗用具、吹風機、毛巾、私人浴袍</td>
                                             </tr>
                                             <tr>
-                                                <td>　　貼心服務</td>
+                                                <td>　貼心服務</td>
                                                 <td>　免費停車及提供早餐等服務</td>
                                             </tr>
                                             </tbody>
@@ -150,7 +150,6 @@
                     </div>
                 </div>
             </div>
-            <div class="col-md-12" style="padding-top:30px">
                 <hr class="style-one"/>
                 <div class="row">
                     <div class="col-md-12">
@@ -171,7 +170,6 @@
                     </div>
                 </div>
                 <hr class="style-one"/>
-            </div>
             </div>
         </div>
     </article>

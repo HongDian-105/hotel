@@ -53,23 +53,23 @@
                                             </thead>
                                             <tbody>
                                             <tr>
-                                                <td>　　房型介紹</td>
+                                                <td>　房型介紹</td>
                                                 <td>　16坪(52.9平方公尺)；兩特大床 (200x210cm)</td>
                                             </tr>
                                             <tr>
-                                                <td>　　客房設備</td>
+                                                <td>　客房設備</td>
                                                 <td>　迷你冰箱、快煮壺、免費礦泉水、密碼保險箱</td>
                                             </tr>
                                             <tr>
-                                                <td>　　通訊設備</td>
+                                                <td>　通訊設備</td>
                                                 <td>　液晶電視、衛星電視、免費無線／寬頻網路</td>
                                             </tr>
                                             <tr>
-                                                <td>　　衛浴設備</td>
+                                                <td>　衛浴設備</td>
                                                 <td>　乾濕分離衛浴設備、盥洗用具、吹風機、毛巾、私人浴袍</td>
                                             </tr>
                                             <tr>
-                                                <td>　　貼心服務</td>
+                                                <td>　貼心服務</td>
                                                 <td>　免費停車及提供早餐等服務</td>
                                             </tr>
                                             </tbody>
@@ -94,7 +94,7 @@
                             <div class="card text-center" style="border-style:none;background-color:transparent;">
                                 <div class="card-body">
                                     <i class="fa fa-male fa-3x" style="color:#800000"></i><i class="fa fa-female fa-3x" style="color:#800000"></i>
-                                    <i class="fa fa-male fa-3x" style="color:#800000"></i><i class="fa fa-female fa-3x" style="color:#800000"></i>
+                                    <i class="fa fa-male fa-2x" style="color:#800000"></i><i class="fa fa-female fa-2x" style="color:#800000"></i>
                                     <br><font style="font-size:18px" color="#888888" face="標楷體">四人房</font>
                                 </div>
                             </div>

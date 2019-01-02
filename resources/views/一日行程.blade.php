@@ -72,7 +72,7 @@
 
         <br>
 
-            <a href="{{route('1DayPlanA')}}"><h1><font color="#ffffff" size="5" face="微軟正黑體"><b>夏夜之美。夜釣小管</b></font></h1></a>
+            <a href="{{route('1DayPlanA')}}"><h1><font color="#ffffff" size="5" face="微軟正黑體"><b>七美一日遊</b></font></h1></a>
         </div>
         <div class="grid-item">
 
@@ -100,9 +100,9 @@
         <div class="grid-item">
             <div style=text-align:left;">
 
-             <font color="#737373" size="4" face="微軟正黑體"><b>★ 挑燈夜戰，清澈水色!</b></font><br><br>
-              <font color="#737373" size="4" face="微軟正黑體"><b>★ 新鮮小管沙西米 &nbsp;&nbsp;&nbsp;&nbsp;上 &nbsp; &nbsp;&nbsp;菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;囉!</b></font><br><br>
-            <font color="#737373" size="4" face="微軟正黑體"><b>★ 現釣小管沙西米、現煮小管麵線、川燙現網漁獲!</b></font><br><br>
+             <font color="#737373" size="4" face="微軟正黑體"><b>★ 特別的海灣造形!</b></font><br><br>
+              <font color="#737373" size="4" face="微軟正黑體"><b>★ 緩和的波浪及溫暖的南風!</b></font><br><br>
+            <font color="#737373" size="4" face="微軟正黑體"><b>★ 欣賞浪漫美麗的 雙 心 石 滬!</b></font><br><br>
             <font color="#737373" size="4" face="微軟正黑體"><b>★ 本專案不分平、假日均可使用。</b></font><br><br>
             <font color="#737373" size="4" face="微軟正黑體"><b>★ 本活動適用於每年四至九月進行，冬季不建議進行。</b></font><br>
 
