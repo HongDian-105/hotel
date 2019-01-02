@@ -10,8 +10,8 @@
                 <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                     <div class="site-heading">
                         <h1>洪店民宿<h1>
-                        <hr class="small">
-                        <span class="subheading">Where Are You Going -> Just Go Here</span>
+                                <hr class="small"></h1>
+                            <span class="subheading">Where Are You Going -> Just Go Here</span>
                     </div>
                 </div>
             </div>
@@ -24,7 +24,7 @@
         <div class="row">
             <div class="col-lg-8 col-lg-offset-2 col-md-10 col-md-offset-1">
                 <div class="post-preview">
-                    <a href="#">
+                    <a href="{{url('/post1')}}">
                         <h2 class="post-title">
                             土魠的季節，好吃的滋味！
                         </h2>
@@ -75,7 +75,7 @@
                 <!-- Pager -->
                 <ul class="pager">
                     <li class="next">
-                        <a href="#">Older Posts &rarr;</a>
+                        <a href="{{url('/post1')}}">Older Posts &rarr;</a>
                     </li>
                 </ul>
             </div>

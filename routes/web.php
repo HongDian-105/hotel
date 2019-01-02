@@ -23,6 +23,9 @@ Route::get('contact',  ['as' => 'posts.contact', 'uses' => 'PostsController@cont
 Route::get('booking',  ['as' => 'posts.booking',  'uses' => 'PostsController@booking']);
 Route::get('review',  ['as' => 'posts.review',  'uses' => 'PostsController@review']);
 
+/*貼文*/
+Route::get('post1',  ['as'=>'posts.post1','uses' => 'PostsController@post1']);
+
 /*快速訂房*/
 Route::get('chooseroom',  ['as'=>'booking.chooseroom','uses' => 'BookingController@index']);
 Route::post('store',['as'=>'booking.store','uses' => 'BookingController@store']);

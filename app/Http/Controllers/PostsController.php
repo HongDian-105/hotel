@@ -42,5 +42,9 @@ class PostsController extends Controller
     {
         return view('review');
     }
+    public function post1()
+    {
+        return view('post1');
+    }
 
 }
