@@ -36,7 +36,7 @@ class PostsController extends Controller
     }
     public function booking()
     {
-        return view('booking');
+        return view('booking11');
     }
     public function review()
     {

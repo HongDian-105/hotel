@@ -2,6 +2,7 @@
 
 namespace App\Http\Controllers;
 
+use App\Http\Requests;
 use App\Booking;
 use App\Room;
 use Illuminate\Http\Request;
@@ -13,6 +14,63 @@ class BookingController extends Controller
      *
      * @return \Illuminate\Http\Response
      */
+    public function time(Request $request)
+    {
+        $start = $request['StartTime'];
+
+        $rooms=Room::orderBy('id','ASC')->get();
+
+        $results =Booking::where('StartTime',$request->StartTime)->get();
+
+        return view('booking22',[
+            'start'=>$start,
+            'rooms'=>$rooms,
+            'results' => $results,
+        ]);
+
+    }
+
+    public function room(Request $request)
+    {
+        $start = $request['StartTime'];
+
+        $results =Room::where('name',$request->chose)->get();
+
+        return view('booking33',[
+            'start'=>$start,
+            'results' => $results,
+        ]);
+    }
+
+    public function check(Request $request)
+    {
+        $start = $request['StartTime'];
+        $name = $request['name'];
+        $email = $request['email'];
+        $phone = $request['phone'];
+        $country = $request['country'];
+        $address = $request['address'];
+
+        $results =Room::where('name',$request->chose)->get();
+
+        return view('booking44',[
+            'start'=>$start,
+            'name'=>$name,
+            'email'=>$email,
+            'phone'=>$phone,
+            'country'=>$country,
+            'address'=>$address,
+            'results' => $results,
+        ]);
+    }
+
+    public function final(Request $request)
+    {
+        Booking::create($request->all());
+        return view('index');
+    }
+
+
 
     public function index()
     {
@@ -40,7 +98,7 @@ class BookingController extends Controller
     public function store(Request $request)
     {
         Booking::create($request->all());
-        return redirect()->route('booking.chooseroom');
+        return view('chooseroom');
     }
 
     /**

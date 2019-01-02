@@ -24,8 +24,18 @@ Route::get('booking',  ['as' => 'posts.booking',  'uses' => 'PostsController@boo
 Route::get('review',  ['as' => 'posts.review',  'uses' => 'PostsController@review']);
 
 /*快速訂房*/
+/*-沒用到*/
 Route::get('chooseroom',  ['as'=>'booking.chooseroom','uses' => 'BookingController@index']);
+/*-沒用到*/
 Route::post('store',['as'=>'booking.store','uses' => 'BookingController@store']);
+/*-沒用到*/
+Route::post('store2',['as'=>'booking.store2','uses' => 'BookingController@store2']);
+
+/*快速訂房*/
+Route::get('time',['as'=>'booking.time','uses'=>'BookingController@time']);
+Route::get('room',['as'=>'booking.room','uses'=>'BookingController@room']);
+Route::get('check',['as'=>'booking.check','uses'=>'BookingController@check']);
+Route::post('final',['as'=>'booking.final','uses'=>'BookingController@final']);
 
 /*房型介紹-各房間*/
 Route::get('room1',  ['as' => 'room1',  'uses' => 'RoomDetailController@room1']);
