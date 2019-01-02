@@ -1,7 +1,7 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Room;
 use Illuminate\Http\Request;
 USE App\Room;
 
@@ -40,7 +40,9 @@ class PostsController extends Controller
     }
     public function booking()
     {
-        return view('booking');
+        $rooms=Room::orderBy('id','ASC')->get();
+        $data=['rooms'=>$rooms];
+        return view('booking',$data);
     }
     public function review()
     {
