@@ -4,6 +4,7 @@ namespace App;
 
 use Illuminate\Database\Eloquent\Model;
 
+use \App\Booking as BookingEloquent;
 class Room extends Model
 {
     protected $table = 'rooms';
@@ -13,6 +14,6 @@ class Room extends Model
         'pic',
     ];
     public function bookings(){
-        return $this->belongsTo('App\Booking');
+        return $this->belongsTo(BookingEloquent::class);
     }
 }
