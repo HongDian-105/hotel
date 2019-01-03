@@ -3,7 +3,6 @@
 namespace App\Http\Controllers;
 use App\Room;
 use Illuminate\Http\Request;
-USE App\Room;
 
 class PostsController extends Controller
 {
