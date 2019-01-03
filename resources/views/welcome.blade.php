@@ -85,7 +85,7 @@
 
                 <div class="links">
                     <div class="title"> <span style="font-size:26px">
-                        <a href="{{ url('/posts') }}">到民宿網站</a></span>
+                        <a href="{{ url('/posts') }}"  style="text-decoration:none">到民宿網站</a></span>
                     </div>
 
                 </div>

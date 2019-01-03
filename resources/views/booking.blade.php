@@ -58,20 +58,28 @@
                         </div>
                     </div>
                     <br>
-                    <div style="text-align:left">
-                        <input type="date" name="StartTime" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d'); ?>" max="2019-01-31">
-                        <label>點擊向下箭頭可開啟詳細日期</label>
-                    </div>
-                    <div style="text-align:left">
-                        <input type="date" name="EndTime" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d'); ?>" max="2019-01-31">
+
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="date" name="StartTime" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d'); ?>" max="2019-01-31">
+                        </div>
                     </div>
                     <br>
+
+                    <div class="row control-group">
+                        <div class="form-group col-xs-12 floating-label-form-group controls">
+                            <input type="date" name="EndTime" value="<?php echo date('Y-m-d'); ?>" min="<?php echo date('Y-m-d'); ?>" max="2019-01-31">
+                        </div>
+                    </div>
+
+
                     <div class ="row">
                         <select name="rooms_id" type="submit">
                             @foreach($rooms as $rs)
                                 <option value="{{$rs->id}}">{{$rs->name}}</option>
                                 @endforeach
                         </select>
+
 
                     </div>
 

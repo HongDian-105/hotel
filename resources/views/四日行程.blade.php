@@ -51,7 +51,7 @@
                     <div class="page-heading">
                         <h1>行程規劃</h1>
                         <hr class="small">
-                        <span class="subheading">二日遊行程</span>
+                        <span class="subheading">四日遊行程</span>
                     </div>
                 </div>
             </div>
@@ -66,43 +66,43 @@
                 <div class="grid-item">
                     <div id="circular--landscape-1">
                         <div id="circular--landscape-1 img">
-                            <a href="{{route('2DayPlanA')}}"><img src="img/view30.jpg"></a>
+                            <a href="{{route('2DayPlanA')}}"><img src="img/dayplanview/4day1.jpg"></a>
                         </div>
                     </div>
 
                     <br>
 
-                    <a href="{{route('2DayPlanA')}}"><h1><font color="#ffffff" size="5" face="微軟正黑體"><b>玩遍本島。夜釣小管</b></font></h1></a>
+                    <a href="{{route('2DayPlanA')}}"><h1><font color="#ffffff" size="5" face="微軟正黑體"><b>玩遍澎湖。深度之旅</b></font></h1></a>
                 </div>
                 <div class="grid-item">
 
                     <div id="circular--landscape-1">
                         <div id="circular--landscape-1 img">
-                            <a href="{{route('2DayPlanB')}}"><img src="img/view25.jpg"></a>
+                            <a href="{{route('2DayPlanB')}}"><img src="img/dayplanview/4day2.jpg"></a>
                         </div>
                     </div>
 
                     <br>
-                    <a href="{{route('2DayPlanB')}}"> <h1><font color="#ffffff" size="5" face="微軟正黑體"><b>菊島北環&悠閒遊吉貝</b></font></h1></a>
+                    <a href="{{route('2DayPlanB')}}"> <h1><font color="#ffffff" size="5" face="微軟正黑體"><b>古蹟&老街，澎湖的文化與知性之旅</b></font></h1></a>
 
                 </div>
                 <div class="grid-item">
 
                     <div id="circular--landscape-1">
                         <div id="circular--landscape-1 img">
-                            <a href="{{route('2DayPlanC')}}"><img src="img/view20.jpg"></a>
+                            <a href="{{route('2DayPlanC')}}"><img src="img/dayplanview/4day3.jpg"></a>
                         </div>
                     </div>
 
                     <br>
-                    <a href="{{route('2DayPlanC')}}"><h1><font color="#ffffff" size="5" face="微軟正黑體"><b>望安 白沙 七美，離島二日遊</b></font></h1></a>
+                    <a href="{{route('2DayPlanC')}}"><h1><font color="#ffffff" size="5" face="微軟正黑體"><b>東海生態之旅</b></font></h1></a>
                 </div>
                 <div class="grid-item">
                     <div style=text-align:left;">
 
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 挑燈夜戰，清澈水色!</b></font><br><br>
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 新鮮小管沙西米 &nbsp;&nbsp;&nbsp;&nbsp;上 &nbsp; &nbsp;&nbsp;菜&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;囉!</b></font><br><br>
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 飽覽澎湖海洋意象及澎湖灣風情!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 巧奪天工的地質景觀!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 透亮清澈的海水!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 飽覽瑰麗多變的珊瑚!</b></font><br><br>
                         <font color="#737373" size="4" face="微軟正黑體"><b>★ 本專案不分平、假日均可使用。</b></font><br><br>
                         <font color="#737373" size="4" face="微軟正黑體"><b>★ 本活動適用於每年四至九月進行，冬季不建議進行。</b></font><br>
 
@@ -113,9 +113,9 @@
                 <div class="grid-item">
                     <div style=text-align:left;">
 
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 自然悠遊，恣意享受!</b></font><br><br>
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 飽覽澎湖海洋意象及澎湖灣風情!</b></font><br><br>
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 迷人的沙尾沙灘，碎貝殼與細沙在陽光的照耀閃著點點亮光!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 走進時光隧道，現當年情景!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 飽覽珍貴的歷史文物及國家級古蹟!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 結合公共藝術、彩繪油桶、藝文展覽演出、水舞表演，讓人流連忘返!</b></font><br><br>
                         <font color="#737373" size="4" face="微軟正黑體"><b>★ 本專案不分平、假日均可使用。</b></font><br><br>
                         <font color="#737373" size="4" face="微軟正黑體"><b>★ 本活動全年適用。</b></font><br>
 
@@ -125,9 +125,9 @@
                 <div class="grid-item">
                     <div style=text-align:left;">
 
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 浪漫的雙心石滬!</b></font><br><br>
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 藍天白雲與紅花綠葉，和金色的沙蔚藍的海!</b></font><br><br>
-                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 迷人的沙尾沙灘，碎貝殼與細沙在陽光的照耀閃著點點亮光!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 不能錯過的就是澎湖特種植物—澎湖仙人掌!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 海天一色的美景!</b></font><br><br>
+                        <font color="#737373" size="4" face="微軟正黑體"><b>★ 純樸自然的濕地，孕育許多生物棲息!</b></font><br><br>
                         <font color="#737373" size="4" face="微軟正黑體"><b>★ 本專案不分平、假日均可使用。</b></font><br><br>
                         <font color="#737373" size="4" face="微軟正黑體"><b>★ 本活動於每年四至九月進行，冬季不建議進行。</b></font><br>
 

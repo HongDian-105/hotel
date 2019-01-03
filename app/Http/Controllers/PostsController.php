@@ -39,9 +39,13 @@ class PostsController extends Controller
     }
     public function booking()
     {
-        $rooms=Room::orderBy('id','ASC')->get();
-        $data=['rooms'=>$rooms];
-        return view('booking',$data);
+
+        return view('booking11');
+
+//        $rooms=Room::orderBy('id','ASC')->get();
+//        $data=['rooms'=>$rooms];
+//        return view('booking',$data);
+
     }
     public function review()
     {

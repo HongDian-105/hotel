@@ -17,29 +17,32 @@
         </div>
     </header>
 
+    <form action="{{ route('booking.store2') }}" method="POST" role="form">
+        {{ csrf_field() }}
+        <div class="row">
+            <div class="col-lg-12">
+                <div style="text-align: center">
+                    <tbody>
+                    @foreach($rooms as $rs)
+                        <tr>
+                            <td>{{$rs->name}}</td>
+                            <td>{{$rs->price}}</td>
+                            <td>{{$rs->pic}}</td>
+                            <td>
+                                <div>
+                                    <form>
+                                        <button class="btn btn-link">選擇</button>
+                                    </form>
 
-    <div class="row">
-        <div class="col-lg-12">
-            <div style="text-align: center">
-            <tbody>
-            @foreach($rooms as $rs)
-            <tr>
-                <td>{{$rs->name}}</td>
-                <td>{{$rs->price}}</td>
-                <td>{{$rs->pic}}</td>
-                <td>
-                    <div>
-                        <form>
-                            <button class="btn btn-link">選擇</button>
-                        </form>
-
-                    </div>
-                </td>
-            </tr>
-            </tbody>
-        @endforeach
+                                </div>
+                            </td>
+                        </tr>
+                    </tbody>
+                    @endforeach
+                </div>
             </div>
         </div>
-    </div>
+    </form>
+
 
 @endsection

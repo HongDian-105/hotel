@@ -3,7 +3,7 @@
 namespace App;
 
 use Illuminate\Database\Eloquent\Model;
-
+use \App\Room as RoomEloquent;
 class Booking extends Model
 {
     protected $table = 'bookings';
@@ -18,6 +18,6 @@ class Booking extends Model
         'EndTime',
     ];
     public function rooms(){
-        return $this->hasMany('App\Room');
+        return $this->hasMany(RoomEloquent::class);
     }
 }
