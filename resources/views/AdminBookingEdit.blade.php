@@ -1,3 +1,7 @@
+@extends('layouts.adminmaster')
+
+@section('content')
+
 <!-- Page Heading -->
 <div class="row">
     <div class="col-lg-12">
@@ -61,5 +65,13 @@
 
         </form>
     </div>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+    <p>&nbsp;</p>
+
 </div>
 <!-- /.row -->
+@endsection

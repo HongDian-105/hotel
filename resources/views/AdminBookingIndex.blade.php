@@ -1,4 +1,6 @@
+@extends('layouts.adminmaster')
 
+@section('content')
 <!-- Page Heading -->
     <div class="row">
         <div class="col-lg-12">
@@ -6,13 +8,6 @@
 
                 訂房管理 <small>所有訂房表</small>
             </h1>
-            <div>
-                <div class="top-right links" style="text-align: right">
-                    <a href="{{ url('/admin') }}">Admin</a>
-                    <a href="{{ url('/logout') }}">Logout</a>
-                </div>
-
-            </div>
 
         </div>
     </div>
@@ -26,15 +21,17 @@
                 <table class="table table-bordered table-hover">
                    <thead>
                     <tr>
-                        <th width="100" style="text-align:left">訂房編號：</th>
-                        <th width="100" style="text-align:left">房型編號：</th>
-                        <th width="70" style="text-align: center">聯絡人：</th>
-                        <th width="30" style="text-align: center">email：</th>
+                        <th width="100" style="text-align:center">訂房編號：</th>
+                        <th width="100" style="text-align:center">房型編號：</th>
+                        <th width="100" style="text-align: center">聯絡人：</th>
+                        <th width="125" style="text-align: center">email：</th>
                         <th width="30" style="text-align: center">電話：</th>
                         <th width="50" style="text-align: center">國家：</th>
-                        <th width="70" style="text-align: center">地址：</th>
+                        <th width="300" style="text-align: center">地址：</th>
                         <th width="100" style="text-align: center">入住時間：</th>
                         <th width="100" style="text-align: center">退房時間：</th>
+                        <th width="30" style="text-align: center">編輯：</th>
+                        <th width="30" style="text-align: center">刪除：</th>
 
                     </tr>
                     </thead>
@@ -51,15 +48,15 @@
                             <td>{{$books->StartTime}}</td>
                             <td>{{$books->EndTime}}</td>
                             <td>
-                                <div>
-                                    <a href="{{ route('admin.booking.edit', $books->id) }}">編輯</a>
-                                    <form action="{{ route('admin.booking.destroy', $books->id) }}" method="POST">
-                                        {{ csrf_field() }}
-                                        {{ method_field('DELETE') }}
+                                <button type="button" ><a href="{{ route('admin.booking.edit', $books->id) }}">編輯</a></button>
+                            </td>
+                            <td>
+                                <form action="{{ route('admin.booking.destroy', $books->id) }}" method="POST">
+                                    {{ csrf_field() }}
+                                    {{ method_field('DELETE') }}
 
-                                        <button class="btn btn-link">刪除</button>
-                                    </form>
-                                </div>
+                                    <button class="button">刪除</button>
+                                </form>
                             </td>
                         </tr>
                     @endforeach
@@ -67,6 +64,28 @@
                 </table>
             </div>
         </div>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
+        <p>&nbsp;</p>
     </div>
 
     <!-- /.row -->
+@endsection
