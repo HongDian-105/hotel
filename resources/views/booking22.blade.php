@@ -62,7 +62,7 @@
                                 <div class="col-md-4">
                                     <div class="card">
                                         <div class="card-body">
-                                            {{$room->name}}
+                                            {{$room->name}} {{"||"}} {{$room->price}} {{"元"}}
 
                                             @if(count($results)>0)
                                                 @foreach($results as $result)

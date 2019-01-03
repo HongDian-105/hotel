@@ -62,6 +62,17 @@
                                 @endforeach
                             @endif
                         </div>
+                        <div class="form-group row" style="margin-top: 15px; ">
+                            @if(count($results)>0)
+                                @foreach($results as $result)
+                                    <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('房型價格：') }}</label>
+
+                                    <input class="form-control col-md-6" type="text"  value="{{$result->price}}"readonly >
+
+                                    <div>&nbsp&nbsp&nbsp</div>
+                                @endforeach
+                            @endif
+                        </div>
                     </div>
                 </div>
 

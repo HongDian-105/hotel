@@ -54,6 +54,19 @@
                             @endif
                         </div>
 
+                        <div class="form-group row" style="margin-top: 15px; ">
+                            @if(count($results)>0)
+                                @foreach($results as $result)
+                                    <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('房型價格：') }}</label>
+
+                                    <input class="form-control col-md-6" type="text"  value="{{$result->price}}"readonly >
+
+                                    <div>&nbsp&nbsp&nbsp</div>
+
+                                @endforeach
+                            @endif
+                        </div>
+
                         <div class="form-group row" style="margin-top:15px; ">
                                         <label for="email" class="col-md-4 col-form-label text-md-right">{{ __('姓名：') }}</label>
 
@@ -94,8 +107,18 @@
                                         <div>&nbsp&nbsp&nbsp</div>
                                     </div>
 
+                        <div class="form-group row" style="margin-top: 15px; margin-bottom: 15px ">
+                            <label for="check" class="col-md-8  col-md-offset-3 col-form-label text-md-center">{{ __('訂房後3天內匯款3成訂金即完成訂房!') }}</label>
+                            <div>&nbsp&nbsp&nbsp</div>
+                        </div>
 
-
+                        <div class="form-group row" style="margin-top: 15px; margin-bottom: 15px ">
+                            @if(count($results)>0)
+                                @foreach($results as $result)
+                                    <label for="price" class="col-md-8  col-md-offset-3 col-form-label text-md-center">{{ __('3成訂金為->') }} {{"$"}} {{$result->price*0.3}}</label>
+                                @endforeach
+                            @endif
+                        </div>
 
                         <button type="submit" class="btn btn-primary col-md-12 ">
                             {{ __('送出') }}
