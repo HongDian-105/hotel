@@ -36,7 +36,7 @@
                     <div class="page-heading">
                         <h1>行程規劃</h1>
                         <hr class="small">
-                        <span class="subheading">二日遊行程---玩遍本島。夜釣小管</span>
+                        <span class="subheading">二日遊行程---望安 白沙 七美，離島二日遊</span>
                     </div>
                 </div>
             </div>
