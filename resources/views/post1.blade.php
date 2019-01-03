@@ -73,7 +73,7 @@
         <!-- Pager -->
         <ul class="pager">
             <li class="next">
-                <a href="#">Next Posts &rarr;</a>
+                <a href="{{url('/post2')}}">Next Posts &rarr;</a>
             </li>
         </ul>
     </div>

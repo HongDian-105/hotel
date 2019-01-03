@@ -36,7 +36,7 @@
                 </div>
                 <hr>
                 <div class="post-preview">
-                    <a href="#">
+                    <a href="{{url('/post2')}}">
                         <h2 class="post-title">
                            今年五月，花火節正式登場！
                         </h2>

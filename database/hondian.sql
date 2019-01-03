@@ -28,7 +28,8 @@ INSERT INTO `bookings` (`id`, `rooms_id`, `name`, `email`, `phone`, `country`, `
 (2,	3,	'陳姿婷',	'vivian@gmail.com',	'0958366789',	'台灣',	'台中市西屯區黎明路三段246號',	'2019-01-04',	'2019-01-04',	'2019-01-02 08:24:53',	'2019-01-02 08:24:53'),
 (3,	2,	'張宏偉',	'honwei@gmail.com',	'0975122546',	'台灣',	'台中市西區精誠路294號',	'2019-01-05',	'2019-01-05',	'2019-01-02 08:25:59',	'2019-01-02 08:25:59'),
 (4,	6,	'鄭一緯',	'ivan@gmail.com',	'0978933191',	'台灣',	'台中市西屯區西屯路三段157號',	'2019-01-05',	'2019-01-05',	'2019-01-02 08:27:04',	'2019-01-02 08:27:04'),
-(13,	5,	'鄭一緯',	'ivan@gmail.com',	'0978933191',	'台灣',	'台中市西屯區西屯路三段157號',	'2019-01-05',	'2019-01-05',	'2019-01-02 08:28:46',	'2019-01-02 08:28:46');
+(13,	5,	'鄭一緯',	'ivan@gmail.com',	'0978933191',	'台灣',	'台中市西屯區西屯路三段157號',	'2019-01-05',	'2019-01-05',	'2019-01-02 08:28:46',	'2019-01-02 08:28:46'),
+(15,	2,	'肥',	'coco@gmail.com',	'0912345678',	'Taiwan',	'你猜阿',	'2019-01-04',	'2019-01-04',	'2019-01-03 05:38:06',	'2019-01-03 05:38:06');
 
 DROP TABLE IF EXISTS `migrations`;
 CREATE TABLE `migrations` (
@@ -94,6 +95,9 @@ CREATE TABLE `users` (
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_unicode_ci;
 
 INSERT INTO `users` (`id`, `name`, `email`, `email_verified_at`, `password`, `remember_token`, `created_at`, `updated_at`) VALUES
-(1,	'姿婷',	'coco214034@gmail.com',	NULL,	'$2y$10$XE8bVGbx5k2BF.xOwPOqRusju7SlqtAAGgTsS4Gzjrm6gpLZ9ZghG',	NULL,	'2019-01-02 23:55:57',	'2019-01-02 23:55:57');
+(1,	'姿婷',	'coco214034@gmail.com',	NULL,	'$2y$10$XE8bVGbx5k2BF.xOwPOqRusju7SlqtAAGgTsS4Gzjrm6gpLZ9ZghG',	'n9IStOQPTysM1MA4an42hEVrc9GQYeeeM06Kua87NnmOC0EVRIABOfzciySI',	'2019-01-02 23:55:57',	'2019-01-02 23:55:57'),
+(3,	'陳冠宇',	'1@gmail.com',	NULL,	'$2y$10$qEBQtsfHDuoYX/RHWlRuuOrTVMzo/eYe35SMew2LCtIJ7/bdTx9Pm',	'D4nJEslkGmPhGcmKPTwseib4xPJoqTo9FEjmbGbbQyPjAinlkMcDKwfKHMEY',	'2019-01-03 05:54:04',	'2019-01-03 05:54:04'),
+(4,	'鄭一緯',	'2@gmail.com',	NULL,	'$2y$10$K21i0M1JaINNJHZgyfwbDeOd6qeeBOI5pibBdExa.ukBPTj/n0GvK',	'1K9OdQ3OEcgwI1fbplcpy0g54zPCrbSiC2fQawOUpGxqTSGALd87KDFtOnie',	'2019-01-03 05:54:45',	'2019-01-03 05:54:45'),
+(5,	'張宏瑋',	'3@gmail.com',	NULL,	'$2y$10$/dagQMy2gl38V/j2PhEJeeFZZtddoFZTAsO/DG4tA7Z.jtBv9M/nO',	'f3ewyjH1nTvyywZQYmkn8sHFH2RedCIx7B3UYyNI9r56XbGGfVHQ9xkSqT6Y',	'2019-01-03 05:55:19',	'2019-01-03 05:55:19');
 
--- 2019-01-03 12:13:53
+-- 2019-01-03 14:04:19
