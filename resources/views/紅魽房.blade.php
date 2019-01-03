@@ -145,6 +145,8 @@
                             <div class="item" style="width:600px"><img src="img/room/紅魽/2.jpg"></div>
                             <div class="item" style="width:600px"><img src="img/room/紅魽/3.jpg"></div>
                             <div class="item" style="width:600px"><img src="img/room/紅魽/4.jpg"></div>
+                            <div class="item" style="width:600px"><img src="img/room/紅魽/5.jpg"></div>
+                            <div class="item" style="width:600px"><img src="img/room/紅魽/6.jpg"></div>
                         </div>
                     </div>
                 </div>

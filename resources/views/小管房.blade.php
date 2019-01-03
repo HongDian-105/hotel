@@ -146,7 +146,6 @@
                         <div class="item" style="width:600px"><img src="img/room/小管/4.jpg"></div>
                         <div class="item" style="width:600px"><img src="img/room/小管/5.jpg"></div>
                         <div class="item" style="width:600px"><img src="img/room/小管/6.jpg"></div>
-                        <div class="item" style="width:600px"><img src="img/room/小管/7.jpg"></div>
                     </div>
                 </div>
             </div>
@@ -156,7 +155,7 @@
                         <div class="col-md-6">
                             <div class="card" style="border-style:none;background-color:transparent;text-align:center;">
                                 <div class="card-body">
-                                    <a href="{{url('/room1')}}"><font style="font-size:20px" color="gray" face="標楷體"><i class="fa fa-arrow-left fa-1x" style="color:gray"></i>小管房</font></a>
+                                    <a href="{{url('/room6')}}"><font style="font-size:20px" color="gray" face="標楷體"><i class="fa fa-arrow-left fa-1x" style="color:gray"></i>垵米房</font></a>
                                 </div>
                             </div>
                         </div>

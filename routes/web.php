@@ -26,7 +26,7 @@ Route::get('review',  ['as' => 'posts.review',  'uses' => 'PostsController@revie
 
 /*貼文*/
 Route::get('post1',  ['as'=>'posts.post1','uses' => 'PostsController@post1']);
-Route::get('post1',  ['as'=>'posts.post1','uses' => 'PostsController@post1']);
+Route::get('post2',  ['as'=>'posts.post2','uses' => 'PostsController@post2']);
 
 /*快速訂房*/
 /*-沒用到*/

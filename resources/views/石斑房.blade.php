@@ -145,8 +145,9 @@
                             <div class="item" style="width:600px"><img src="img/room/石斑/1.jpg"></div>
                             <div class="item" style="width:600px"><img src="img/room/石斑/2.jpg"></div>
                             <div class="item" style="width:600px"><img src="img/room/石斑/3.jpg"></div>
-                            <div class="item" style="width:337px"><img src="img/room/石斑/4.jpg"></div>
+                            <div class="item" style="width:600px"><img src="img/room/石斑/4.jpg"></div>
                             <div class="item" style="width:600px"><img src="img/room/石斑/5.jpg"></div>
+                            <div class="item" style="width:600px"><img src="img/room/石斑/6.jpg"></div>
                         </div>
                     </div>
                 </div>
