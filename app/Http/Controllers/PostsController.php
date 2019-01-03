@@ -55,5 +55,9 @@ class PostsController extends Controller
     {
         return view('post1');
     }
+    public function postold()
+    {
+        return view('post old');
+    }
 
 }

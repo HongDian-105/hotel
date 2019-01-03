@@ -1,11 +1,17 @@
 <?php
 
 namespace App\Http\Controllers;
-
+use App\Room;
 use Illuminate\Http\Request;
 
 class RoomDetailController extends Controller
 {
+    public function index()
+    {
+        $rooms=Room::orderBy('id','ASC')->get();
+        $data=['rooms'=>$rooms];
+        return view('roomdetail',$data);
+    }
     public function room1()
     {
         return view('小管房');
