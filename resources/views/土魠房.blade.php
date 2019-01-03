@@ -147,10 +147,6 @@
                             <div class="item" style="width:600px"><img src="img/room/土魠/4.jpg"></div>
                             <div class="item" style="width:600px"><img src="img/room/土魠/5.jpg"></div>
                             <div class="item" style="width:600px"><img src="img/room/土魠/6.jpg"></div>
-                            <div class="item" style="width:600px"><img src="img/room/土魠/7.jpg"></div>
-                            <div class="item" style="width:600px"><img src="img/room/土魠/8.jpg"></div>
-                            <div class="item" style="width:600px"><img src="img/room/土魠/9.jpg"></div>
-                            <div class="item" style="width:600px"><img src="img/room/土魠/10.jpg"></div>
                         </div>
                     </div>
                 </div>

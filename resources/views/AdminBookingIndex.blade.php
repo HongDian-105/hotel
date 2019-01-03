@@ -1,25 +1,27 @@
 @extends('layouts.adminmaster')
 
 @section('content')
-<!-- Page Heading -->
+
     <div class="row">
         <div class="col-lg-12">
             <h1 class="page-header">
 
                 訂房管理 <small>所有訂房表</small>
             </h1>
-
         </div>
+
     </div>
-    <!-- /.row -->
 
-    <!-- /.row -->
+<!-- /.row -->
 
-    <div class="row">
-        <div class="col-lg-12">
-            <div class="table-responsive">
-                <table class="table table-bordered table-hover">
-                   <thead>
+<!-- /.row -->
+
+<div class="row">
+    <div class="col-lg-12">
+        <div class="table-responsive">
+            <table class="table table-bordered table-hover">
+
+                <tbody>
                     <tr>
                         <th width="100" style="text-align:center">訂房編號：</th>
                         <th width="100" style="text-align:center">房型編號：</th>
@@ -34,8 +36,7 @@
                         <th width="30" style="text-align: center">刪除：</th>
 
                     </tr>
-                    </thead>
-                    <tbody>
+                <tbody>
                     @foreach($bookings as $books)
                         <tr>
                             <td>{{$books->id}}</td>
@@ -63,6 +64,7 @@
                     </tbody>
                 </table>
             </div>
+
         </div>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
@@ -85,7 +87,6 @@
         <p>&nbsp;</p>
         <p>&nbsp;</p>
         <p>&nbsp;</p>
-    </div>
+</div>
 
-    <!-- /.row -->
 @endsection
