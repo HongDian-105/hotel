@@ -80,7 +80,7 @@ Route::get('/home', 'HomeController@index')->name('home');
 
 /*後台*/
 Route::group(['prefix' => 'admin'], function() {
-    Route::get('/', 'HomeController@show');
+    Route::get('/', ['as' => 'admin.index', 'uses' => 'HomeController@show']);
     Route::get('booking', ['as' => 'admin.booking.index', 'uses' => 'AdminBookingController@index']);
     Route::get('booking/{id}/edit'   , ['as' => 'admin.booking.edit', 'uses' => 'AdminBookingController@edit']);
     Route::post('booking', ['as' => 'admin.booking.store', 'uses' => 'AdminBookingController@store']);
